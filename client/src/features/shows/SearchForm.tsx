@@ -8,10 +8,6 @@ import { userCountry,  } from "../users/usersSlice";
 const SearchForm: React.FC<SearchFormProps> = () => {
   const dispatch = useAppDispatch();
 
-
-const country = useSelector(userCountry)
-console.log("country:",country)
-
   const [title, setTitle] = useState("");
 
   const [searchStatus, setSearchStatus] = useState("idle");
@@ -27,7 +23,9 @@ console.log("country:",country)
   const onSearchClicked = (e:any) => {
     e.preventDefault()
     console.log(country)
+    console.log(country)
     if (canSearch) {
+        console.log("Search button clicked")
         console.log("Search button clicked")
       setSearchStatus("pending");
       dispatch(fetchShows({ title, country }));
