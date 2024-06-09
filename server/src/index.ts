@@ -9,7 +9,7 @@ import showsRouter from "./routes/shows.routes"
 dotenv.config()
 
 const app: Express = express()
-const port = process.env.SERVER_PORT || 3000
+const port = process.env.SERVER_PORT || 10000
 
 app.use(cors())
 app.use(express.urlencoded({ extended: true }))
