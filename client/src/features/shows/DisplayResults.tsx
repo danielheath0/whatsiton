@@ -7,7 +7,7 @@ const DisplayResults: React.FC<DisplayResultsProps> = ({ countryCode }) => {
   //   const dispatch = useAppDispatch();
 
   const shows = useSelector(allShows);
-  console.log("DisplayResults shows:", shows);
+  // console.log("DisplayResults shows:", shows);
   const showsStatus = useSelector(allStatus);
   const error = useSelector(allError);
 

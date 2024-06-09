@@ -31,7 +31,7 @@ const RegisterForm = () => {
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    console.log(user);
+    // console.log(user);
     dispatch(registerUser({user}));
   };
 

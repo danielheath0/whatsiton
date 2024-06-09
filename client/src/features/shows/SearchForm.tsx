@@ -10,9 +10,9 @@ const SearchForm: React.FC<SearchFormProps> = () => {
 
 
   const state = useSelector((state) => state);
-  console.log(state)
+  // console.log(state)
 const country = useSelector(userCountry)
-console.log("country:",country)
+// console.log("country:",country)
 
   const [title, setTitle] = useState("");
 
@@ -28,9 +28,9 @@ console.log("country:",country)
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const onSearchClicked = (e:any) => {
     e.preventDefault()
-    console.log(country)
+    // console.log(country)
     if (canSearch) {
-        console.log("Search button clicked")
+        // console.log("Search button clicked")
       setSearchStatus("pending");
       dispatch(fetchShows({ title, country }));
       {

@@ -18,7 +18,7 @@ function App() {
   };
 
   const handleLogin = (token: string) => {
-    console.log(token)
+    // console.log(token)
     localStorage.setItem("token", token);
     setIsLoggedIn(true);
   };
