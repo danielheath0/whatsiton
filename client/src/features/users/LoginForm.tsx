@@ -1,8 +1,9 @@
 import {  useAppDispatch } from "../../app/store";
 import { useState } from "react";
 import { loginUser } from "./usersSlice";
+import { UserShort } from "../../interfaces/interfaces";
 
-const LoginForm = ({ onLogin }: { onLogin: () => void }) => {
+const LoginForm = ({ onLogin }: { onLogin: (token:string) => void }) => {
   const dispatch = useAppDispatch();
 
   const [user, setUser] = useState({
@@ -11,6 +12,8 @@ const LoginForm = ({ onLogin }: { onLogin: () => void }) => {
   });
 
   const [errorMessage, setErrorMessage] = useState("");
+
+  
 
   const handleChange = (
     e: React.FormEvent<HTMLInputElement | HTMLSelectElement>
@@ -23,11 +26,11 @@ const LoginForm = ({ onLogin }: { onLogin: () => void }) => {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    const actionResult = await dispatch(loginUser({user}));
+    const actionResult = await dispatch(loginUser(user));
     if (loginUser.fulfilled.match(actionResult)) {
-      const isLoginSuccess = actionResult.payload;
-      if (isLoginSuccess) {
-        onLogin();
+      const payload = actionResult.payload as unknown as { user: UserShort, token: string };
+      if (payload.user) {
+        onLogin(payload.token);
       }
     } else {
       if (actionResult.payload) {
@@ -35,7 +38,8 @@ const LoginForm = ({ onLogin }: { onLogin: () => void }) => {
       } else {
         setErrorMessage("An error occurred");
       }
-    }}
+    }
+  };
 
     return (
       <>

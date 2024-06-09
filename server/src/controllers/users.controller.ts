@@ -28,7 +28,7 @@ export const login = async (req: Request, res: Response) => {
     try {
         console.log("login: Hi", req.body.user, "Bye")
 
-        const { uName, password } = req.body.user
+        const { uName, password } = req.body
         console.log("uName in login:", uName)
         const user = await _login(uName)
 

@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-import { UsersState, User, UserShort } from "../../interfaces/interfaces";
+import { UsersState, User} from "../../interfaces/interfaces";
 import axios from "axios";
 import { RootState } from "../../app/store";
 
@@ -30,25 +30,24 @@ export const registerUser = createAsyncThunk<User, { user: User }>("users/regist
     }
 })
 
-export const loginUser = createAsyncThunk<UserShort, { user: UserShort }>("users/loginUser", async (user, thunkAPI) => {
+export const loginUser = createAsyncThunk("users/loginUser", async (user, thunkAPI) => {
     try {
-        console.log("user:",user)
-        const response = await axios.post(import.meta.env.VITE_BASE_URL + "/users/login", user)
-        localStorage.setItem("token", response.data.token)
-
-        if (response.status === 200) {
-
-            return response.data.user
-        }
-        else { thunkAPI.rejectWithValue(response.data.message) }
+      console.log("user:", user);
+      const response = await axios.post(import.meta.env.VITE_BASE_URL + "/users/login", {user});
+      localStorage.setItem("token", response.data.token);
+  
+      if (response.status === 200) {
+        return { user: response.data.user, token: response.data.token };
+      } else {
+        return thunkAPI.rejectWithValue(response.data.message);
+      }
     } catch (error: any) {
-        if (error.response && error.response.data && error.response.data.message) {
-            return thunkAPI.rejectWithValue(error.response.data.message)
-        }
-
-        return thunkAPI.rejectWithValue(error.message)
+      if (error.response && error.response.data && error.response.data.message) {
+        return thunkAPI.rejectWithValue(error.response.data.message);
+      }
+      return thunkAPI.rejectWithValue("An error occurred while logging in");
     }
-})
+  });
 
 
 const usersSlice = createSlice({
@@ -78,7 +77,7 @@ const usersSlice = createSlice({
             .addCase(loginUser.fulfilled, (state, action) => {
                 console.log("State before update:", state.user) 
                 state.status = "succeeded"
-                state.user = { ...state.user, ...action.payload }
+                state.user = { ...state.user, ...action.payload.user }
                 console.log("State after update:", state.user)
             })
             .addCase(loginUser.rejected, (state, action) => {

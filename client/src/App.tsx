@@ -5,56 +5,59 @@ import UserForm from "./features/users/UserForm";
 import LogoutButton from "./features/users/LogoutButton";
 import { Route, Routes } from "react-router-dom";
 import Show from "./features/shows/Show";
+import ViewWatchlist from './features/watchlist/ViewWatchlist';
+import Navbar from "./features/display/Navbar";
 
 function App() {
+  const [countryCode, setCountryCode] = useState("us");
 
-  const [countryCode,setCountryCode]=useState("us")
-
-  
-  const [isLoggedIn,setIsLoggedIn]=useState(false)
-//TODO Handle the visibility of the login and register form
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   const handleCountryChange = (region: string) => {
-  setCountryCode(region)}
+    setCountryCode(region);
+  };
 
-const handleLogin = () => {
-  
-  setIsLoggedIn(true)
-}
+  const handleLogin = (token: string) => {
+    console.log(token)
+    localStorage.setItem("token", token);
+    setIsLoggedIn(true);
+  };
 
-const handleLogout = ()=> {
-  setIsLoggedIn(false)
-document.cookie = "token=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;"
-}
+  const handleLogout = () => {
+    localStorage.removeItem("token");
+    setIsLoggedIn(false);
+  };
 
-
-  
-
-
-useEffect(()=>{
-  const token = document.cookie.split('; ').find(row=>row.startsWith('token'))
-  if (token) {
-    handleLogin()
-  }
-},[])
+  useEffect(() => {
+    const token = localStorage.getItem("token");
+    if (token) {
+      handleLogin(token);
+    }
+  }, []);
 
   return (
     <main className="App">
+      <Navbar />
       {!isLoggedIn && <UserForm onLogin={handleLogin} />}
-      {isLoggedIn && <LogoutButton onLogout={handleLogout}/>}
-  
+      {isLoggedIn && <LogoutButton onLogout={handleLogout} />}
+
       <Routes key={isLoggedIn ? "loggedIn" : "loggedOut"}>
-        <Route path="/" element={
-          <>
-            {isLoggedIn && <SearchForm onCountryChange={handleCountryChange}/>}
-            {isLoggedIn && <DisplayResults countryCode={countryCode}/>}
-          </>
-        }/>
-        <Route path="/shows/:id" element={<Show />}/>
+        <Route
+          path="/"
+          element={
+            <>
+              {isLoggedIn && (
+                <SearchForm onCountryChange={handleCountryChange} />
+              )}
+              {isLoggedIn && <DisplayResults countryCode={countryCode} />}
+            </>
+          }
+        />
+        <Route path="/shows/:id" element={<Show />} />
+        <Route path="/watchlist" element={<ViewWatchlist />} />
       </Routes>
     </main>
   );
 }
 
-export default App
-
+export default App;

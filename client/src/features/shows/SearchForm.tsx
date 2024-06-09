@@ -8,23 +8,19 @@ import { userCountry,  } from "../users/usersSlice";
 const SearchForm: React.FC<SearchFormProps> = () => {
   const dispatch = useAppDispatch();
 
+
+  const state = useSelector((state) => state);
+  console.log(state)
 const country = useSelector(userCountry)
 console.log("country:",country)
 
   const [title, setTitle] = useState("");
-  // const [country, setCountry] = useState("");
-  // const [outputLanguage, setOutputLanguage] = useState("en");
+
   const [searchStatus, setSearchStatus] = useState("idle");
 
   const onTitleChanged = (e: React.FormEvent<HTMLInputElement>) =>
     setTitle(e.currentTarget.value);
-  // const onCountryChanged = (e: React.FormEvent<HTMLInputElement>) => {
-  //   const newCountry = e.currentTarget.value
-  //   setCountry(newCountry)
-  //   onCountryChange(newCountry) 
-  // }
-  // const onOutputLanguageChanged = (e: React.FormEvent<HTMLInputElement>) =>
-  //   setOutputLanguage(e.currentTarget.value);
+ 
 
   const canSearch =
     [title].every(Boolean) && searchStatus === "idle";

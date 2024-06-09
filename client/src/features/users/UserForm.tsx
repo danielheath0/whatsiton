@@ -10,7 +10,7 @@ const UserForm = ({onLogin}: {onLogin: any}) => {
     <button onClick={() => setCurrentForm("REGISTER")}>Register</button>
     <button onClick={() => setCurrentForm("LOGIN")}>Login</button>
     {currentForm === "REGISTER" && <RegisterForm />}
-    {currentForm === "LOGIN" && <LoginForm onLogin={onLogin}/>}
+    {currentForm === "LOGIN" && <LoginForm onLogin={(onLogin)}/>}
 
   </div>;
 };

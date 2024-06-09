@@ -11,20 +11,30 @@ const initialState: WatchlistState = {
 }
 
 export const addToWatchlist = createAsyncThunk<void, { showId: string, showTitle: string }>("watchlist/addToWatchlist", async ({ showId, showTitle }) => {
-    const token = localStorage.getItem("token")
-    const response = await axios.post(import.meta.env.VITE_BASE_URL + `/watchlist/${showId}`, { showTitle },
-        {
-            headers: {
-                Authorization: `Bearer ${token}`
+    try {
+        const token = localStorage.getItem("token")
+        const response = await axios.post(import.meta.env.VITE_BASE_URL + `/watchlist/${showId}`, { showTitle },
+            {
+                headers: {
+                    Authorization: `Bearer ${token}`
+                }
             }
-        }
-    )
-    return response.data.listItem
+        )
+        return response.data.listItem
+    } catch (error: any) {
+        console.error("Error adding to watchlist:", error);
+        throw error;
+    }
 })
+
 
 export const getWatchlist = createAsyncThunk("watchlist/getWatchlist", async () => {
     try {
         const token = localStorage.getItem("token")
+        console.log("token", token)
+        if (!token) {
+            throw new Error('Token not found in localStorage');
+        }
         const response = await axios.get(import.meta.env.VITE_BASE_URL + "/watchlist",
             {
                 headers: {
@@ -44,6 +54,7 @@ export const getWatchlist = createAsyncThunk("watchlist/getWatchlist", async () 
 export const toggleWatched = createAsyncThunk("watchlist/toggleWatched", async ({ showId, watched }: { showId: string, watched: boolean }, { dispatch }) => {
     try {
         const token = localStorage.getItem("token")
+
         const response = await axios.put(import.meta.env.VITE_BASE_URL + `/watchlist/${showId}`, { watched },
             {
                 headers: {
@@ -51,7 +62,7 @@ export const toggleWatched = createAsyncThunk("watchlist/toggleWatched", async (
                 }
             }
         )
-        return {showId, watched: response.data.watched}
+        return { showId, watched: response.data.watched }
     } catch (error: any) {
         if (error.response && error.response.data.message === "Show not in watchlist") {
             dispatch(removeFromWatchlist(showId))
@@ -113,7 +124,7 @@ const watchlistSlice = createSlice({
                 }
             })
             .addCase(toggleWatched.pending, (state) => { state.status = "loading" })
-         
+
             .addCase(toggleWatched.fulfilled, (state, action) => {
                 const { showId, watched } = action.payload as { showId: string; watched: any; };
                 const index = state.items.findIndex((item) => item.showId === showId);
