@@ -1,0 +1,3580 @@
+
+{
+    "itemType": "show",
+    "showType": "movie",
+    "id": "68",
+    "imdbId": "tt0468569",
+    "tmdbId": "movie/155",
+    "title": "The Dark Knight",
+    "overview": "With the help of Lieutenant Jim Gordon and new district attorney Harvey Dent, Batman sets out to destroy organised crime in Gotham City forever; but they soon find themselves prey to a rising criminal mastermind known as The Joker.",
+    "releaseYear": 2008,
+    "originalTitle": "The Dark Knight",
+    "genres": [
+        {
+            "id": "action",
+            "name": "Action"
+        },
+        {
+            "id": "crime",
+            "name": "Crime"
+        },
+        {
+            "id": "drama",
+            "name": "Drama"
+        }
+    ],
+    "directors": [
+        "Christopher Nolan"
+    ],
+    "cast": [
+        "Christian Bale",
+        "Heath Ledger",
+        "Michael Caine",
+        "Gary Oldman",
+        "Aaron Eckhart",
+        "Maggie Gyllenhaal",
+        "Morgan Freeman"
+    ],
+    "rating": 87,
+    "runtime": 152,
+    "imageSet": {
+        "verticalPoster": {
+            "w240": "https://cdn.movieofthenight.com/show/68/poster/vertical/en/240.jpg?Expires=1749001044&Signature=PD9rzV7YzQ23z4s3xXWvCdiXQT~zGl8rUss1~aDeC88GipBaWaqdOsMFcgl1UMC94OydkRTKU4GhGeCm5Q~Yi6QJlEYXXHkNGwFYVF4NLzCPoQMNkivsVY5tBaIZbvzz35LqQbq4RgZd-asGqlYrxbAVGeXdiOOnPPqK4qpTJQw4cZgkJ~51wsdMr5lBEn0hvhMmkh1kIgzDxnByex71H5b9GHm1oQmE4YZ3mjbYtu5tJGwucyRqELC38Hk~t~YfGBTnj1lkF3VdfuZPblpuOMi3WK5mILdt16sHikuHtlf7WJGBqkr5Zbj2-SNYqzGYXjK7WuGyyeaDh42Z~9lVrQ__&Key-Pair-Id=KK4HN3OO4AT5R",
+            "w360": "https://cdn.movieofthenight.com/show/68/poster/vertical/en/360.jpg?Expires=1749001044&Signature=eaxWG~y-dIVlRmGMjOCtUGIw~ej-7cYkIumw5V32~Pxq4lgQnt9FItpVdFAVNFaO9ZJ3haTucXdmQY5lo5IIMlYqTBawFfmzo5vTDCB3mP6jyXGP6eqSeq1y~dtJMF0IVGkWNJ1uggTfD-Vvw2PkBVxBNC~0Ta15pXbv3FrbiUO8V2GM3llPB-F0-~aiZ3BrxAGjhbPMvWVT813U4VUjqadh8tMpCdM2AYWPVOCF15e2qGUkkquwZkpjBQxf6YTuAmSirI7Gf00O1X1FaLS-6vM19rCiZ6DQXKJmCc3mgREyPHe0puSaEBaHcf5NOeWrkNLiHwv9rEPTQ5VIwTseQw__&Key-Pair-Id=KK4HN3OO4AT5R",
+            "w480": "https://cdn.movieofthenight.com/show/68/poster/vertical/en/480.jpg?Expires=1749001044&Signature=IHBgzv6npne2ZLI4hghEt4tnEDirRIFSfnwFv8xerYEvJ5XKjp3cY2Zf6mSvc4V94dgE7xOzA7jfoT3mU1RuKYKkd9pjoBLV12o8KGOCulWkrXLmPYHQPWoLFsRzEwt6Y0VUvhsQB3s5O8EhVEQEJtEKLg0aK0Ncdp0FVL075wUILBFph8Uj83CmCpbjxegbJqrUxrUFv24zeebDBwZ5LMrZTwmCDibUDLRJObGH4GATHR2YA7EPng1cA8sZAfLNWoUU2mHnvp9lELNfbgtmXIh3gYypWrbhM3TP93ZbKdchaVEB~ZSus89yUC84hP6aQWKK7P9HOZ5PiA6n8o3f9w__&Key-Pair-Id=KK4HN3OO4AT5R",
+            "w600": "https://cdn.movieofthenight.com/show/68/poster/vertical/en/600.jpg?Expires=1749001044&Signature=cc3mA8jAuNEUNdectoQl1wXpOYuoDSlvKKzEoq3sIEc3ME-eTxgYFynmlxHeetc0lZNif-PWoJbEsDgucBE8B7Lh7ttL7grVDbfi0g1EqfYASQi2-XPysJtSM0jEDH0qXjvHZ6AYuEVkUUALNh6LvzsZ6Idxl0pmcGWmXRSkcu-eTVAAwblFVwMW25bECvefrcJKo2U5w404yBuEV8ejFeGDr0D8fMnIHhO9eiNANMT691ieEy~28H6ReC~saBYQpJMD5qvoc9Qk9ep17iIBgpbFpK6KQlGYP7OG8xfq8gYDW2hJCNSgmiMb36pEMqjZ4o~Cn9e4L5tK4vJ~Kz7Usg__&Key-Pair-Id=KK4HN3OO4AT5R",
+            "w720": "https://cdn.movieofthenight.com/show/68/poster/vertical/en/720.jpg?Expires=1749001044&Signature=d-e5lTAO2hrG685fV0z0LYLqFvHT7yR6Hc5IkjkuK8f7APFIPQHdTs~6Ik1-OmBI3ef5LdQa4T2h1KHwLunbgjwOnzlV0Awi4uzpkHXBsZZ~qfXlMs07xb~XalhcJgZeXPK7Of-ZauFTfIkE4Qjep8BdooD6kat44TlSe6Coqn-TGTsMPGwdZIjG1Hob6fFkLvxtoh-RHHWXNLqWm3SjEcSyb77E2IT~4FeiERqG22M-yGRSB-tvAnct~EKFF3UnVfRROaJddy9~dqP0dwaErtNDcCYyuOwb9jsldHT2Ck8QRQ~U3vAsniYMx8Lx5e8lWDIiY9-mSjC8j-SBt0sNKA__&Key-Pair-Id=KK4HN3OO4AT5R"
+        },
+        "horizontalPoster": {
+            "w360": "https://cdn.movieofthenight.com/show/68/poster/horizontal/en/360.jpg?Expires=1749001046&Signature=YS5cAZlvF9C-CWrVH9t8y9G7m2t205GYkoJQgeMSyaahawqirtXKhXjBAqt4imCCSx7PMpaTCwoscZL4i5bFNsGYc1HTQmymnGyW4Y4hjpqouG3I~hLgtv5eS-SiBURU5CP0nbgHRrxKdHzWKoeuieYD9yjZp7CCflcPl8m7y6U1AfNkR0dOURgCMq-YxQqU7qO4EYkxaq33eALYL4-4DBycetEenqohQY068NaN1-8wiASqMs1qGnvOrfO0LcbTB5U-~PnCOXngTkSNmMPCiIHsWhsVPssB0IFmlb6O6rFwDk2D-QirwLr~kZ9GK10S5sKX-mLKN7UvxZ~AnYn4wA__&Key-Pair-Id=KK4HN3OO4AT5R",
+            "w480": "https://cdn.movieofthenight.com/show/68/poster/horizontal/en/480.jpg?Expires=1749001046&Signature=J4uDld9oxbgsoiZjb3e3DNxiNTfwdgWtRRNXLmO3wsa-yPsHW9iawtHcdHa52aptf2P~HIxsOeqDB6LzZc9I~KmNQyIz27WTHakSqF55M32Z7sLR49haXOrgMv8zCUaGt9YXXt7MvofuVlC5VzY3PSByjnRtZLO4t-dJG8bEE9ANdQW7ExbP1VBI~UXtTS5H7ZwlleZ~J6Kn~F7gq-TQACo-UNfnVZQQNpYHBxqVhMmovy06exLHR2zemU0-r6l2U3HVeQpyJ-XvcTd3FOnKCm7dQjjiNnOln9VLHtER1Y22JtL3YqVvzxrwhsoPT8XIjWEv2ZwT~YDjO8uKZXCJAw__&Key-Pair-Id=KK4HN3OO4AT5R",
+            "w720": "https://cdn.movieofthenight.com/show/68/poster/horizontal/en/720.jpg?Expires=1749001046&Signature=jwXZainAL-h2m2HNdyojeNx9fvuqiNcG76HeZBzSe3DpVIGj~uVaZJ~BlmajooGl4Jp3MXOSmVDF-tI~~MssbR5GcBCm6NRKHvCOrcEHEe1q1fdMji115114s8HWvDTxmUTilPDQ7O6GClRAweYL37et0dMlQU6mGRDEDaNRZRI00FaxqZN78aloXhgHS7r6tPcFVSgHo4aB8Ln2TXqwHjo72Soi9b78vyzgpiCKP1I1ColuZ4~JHb-cLCRIKjLkbw8SUU14XIVWP9aErnax7vTRkYP26xKFVjcubKHq23UZDNn9g3v4TyDvLZyFV4x6b9UpPJUu8xRR~VrK49tE8w__&Key-Pair-Id=KK4HN3OO4AT5R",
+            "w1080": "https://cdn.movieofthenight.com/show/68/poster/horizontal/en/1080.jpg?Expires=1749001046&Signature=FyISGkchTpHzvGfOnKiAyLck-U0FQ2LuPCLZdP2Bo0iTdZqgBd~7zX9xrwDBU0W0HBEQoE5L81XFz74NLMVgpFhu3IlV1iEnZPfembVd6tnS7UZPTZhbil~Ukfl-OlaD0x1cEf8dUjVuxIqyemvxnjCs31JdU3YqlfaI5cHi1KtTwHcvX4ZBckcJYIRTcLagQAhoR4JS6ZC4IidiUfzpjW8bemxIx0Z-pEpsClXybLRD1GuTnrfwSUg-MkqZP2RfrTnMzxueuP7mYaX8bOQF2f33VOYFYTj8xNnlaiWgEFfF1h23XPZkTsBgCzt4zoj2KLuVX4n54N8POj9eSvMZlw__&Key-Pair-Id=KK4HN3OO4AT5R",
+            "w1440": "https://cdn.movieofthenight.com/show/68/poster/horizontal/en/1440.jpg?Expires=1749001046&Signature=E9qP2nDoxWGNUvKv7UGEQc9Oxx-J0qkDRtgj880xMdCbUnPh7bCQrVkFaYI1U3ieRB55zyWzLPIHDXbgug9uopDwFIsB~7b5D4gK5t422HRrttHzht2z-GfzYV1126M9SjeddZu9jjfM79b30uaKvcJygMWhRuLaHNFUtZfjjPwcL9oZ5k3vzjovn2180QV3HS6419itklEwrAT7C9VlgLl1Js1m8hZn1kvrXhVtjSaztqAYm7p2DAsyMtNL1isDOeLNJahmKziOj5F6RJla7sRvlltnanOOcSerXToKX078NKSgn4CnGurVCJeWP9DklR60vqcszkSCbe8SXF7SXQ__&Key-Pair-Id=KK4HN3OO4AT5R"
+        },
+        "verticalBackdrop": {
+            "w240": "https://cdn.movieofthenight.com/show/68/backdrop/vertical/240.jpg?Expires=1749001029&Signature=PUy7GxVm9symF7OcYAJ-MREBqaJYGVq4vxclr~cVCwQEam-LZBLaG3oLoT8ujGcalnhlY07kTiDbDvgmTNRMAySfJA8KJVCUoNr7-BrM6Zg9HiWZHgti4YoFKxlCT3pXUy-Aq~ElwNstH-qgfPT6tkoQt48F~CDfG~OFOOw~pNWOFASxc42QEZmhh5rl3aCYRv-cu-AdQkLCAbEAI95j6OY1qa-HNP34oIr51ti7VIRlXY9A5923gt3r~XgPL3f8dCmDwkdqmLMsMTEligNMy40PayjalmXHXmeAvM2RslSTj72uDYsSSRYNeOpdk5Z51ENwyogt1gd6zNs-UfYzrQ__&Key-Pair-Id=KK4HN3OO4AT5R",
+            "w360": "https://cdn.movieofthenight.com/show/68/backdrop/vertical/360.jpg?Expires=1749001029&Signature=hAnl5-wn0IKkxPJQnmvczCBn06tGBfCNFRs4fzz~-wRhyHeLvwZ3D~SJCJm~IUHapmxuIBUk1TxWE83fB0vJ63-M5ayBSNzaATLspkrRB6OpA8WNu7aA9UDWvzE6bUPSataP4WXhz0l7jM-tL2dCDSJaTzQKeOC5upsy4J6W-B7s0R~6dteyGdZujSJ0LxXS~QRZCB8aZNO-vL9W1RKl~QjkBwtaTDt3YlhI2cDwG23GFr6jJ7JJY34dZuZz1xvQuy3PFdPnTLGB5KHnEs89E-kHXY75Or5L7NY5blRGv9MKIO00-LtDQpQfZ8xMPKTmWBY~JN3fbLY9GbUcgrvMQA__&Key-Pair-Id=KK4HN3OO4AT5R",
+            "w480": "https://cdn.movieofthenight.com/show/68/backdrop/vertical/480.jpg?Expires=1749001029&Signature=S5ZWe6-YG7eGU4wtUq0ySxdiAaFq0akmpnWUBtSaJU~F8QZTz1~~~Sgm6xgI47Q28RsdrPgmUZDt3l97EGAJqs1mnHQ4ThGwOsOML8FyNsy2XUiJDjN8Na7zmNUXP6WEjkMq7dJY753HDZE-LRJAAhki-ttWJHYTQTbfVl62BsMcoCrGUAkHWqFGrTdgLt2G2Ken9EgLsXC~3phjXD9FQeYcRILR0IUzwvktQSUKWUJNaAzExnTqKP22ZDpKpMoh3YC~fJCyW79jOm2Uu6eZ-AFvHg7h-pCOb4KIEnq1SJEYx~Q47ewmQZ3FEBhhRTN6X-eIq5SlT3xuB7xRiXWglw__&Key-Pair-Id=KK4HN3OO4AT5R",
+            "w600": "https://cdn.movieofthenight.com/show/68/backdrop/vertical/600.jpg?Expires=1749001029&Signature=Z-XT6Zvfkzqy2oi2Zhuyyz5n4oxdFLbtKKy9RiQsqzxyWECP-zW6Ccx22hzP04-dvb~QblVozb~QGuEfPQ8Qwid26ppAV5iruQJDK4Uokv26bqhwOrjCQ44wLL6Bsri1C0HNj2l8FbudSt8aic~8u4QpNU7dsAL8N0AJ8X16-DFB0jftZyh1iAK~Tos4VBvI1KdlfgSAHRkwskKrJlueIKRtMjYs647zP~EN1zoKYc9-xrN5Eg6qprmvcAURjGBcqmeaZIl8WPaQWZ8eCRaim5U~OGIkaP0pe78lkxlo7K6M8q07tGw6HaRqsMyXhCEje4klhz5INKVe9tI5mYuLLw__&Key-Pair-Id=KK4HN3OO4AT5R",
+            "w720": "https://cdn.movieofthenight.com/show/68/backdrop/vertical/720.jpg?Expires=1749001029&Signature=QG6gVsEypOKBwVsdykrKevMVlPdmTbMe~JupoIfVwH3R83asn8sn3Y~Ky7OVYBNbpgJ2mOHykly1TpcgcI-fMkdZo4idcsfJMfkNC6zGHAMg1zVghgDUSr3lRCFrGuk9rjNnMWarobyklF~NdWVInoDsClAtVVVf9EaJY~YvMuLi9kemqTsMEHMU9hj7~IYEF01rhjVXIAj6~fY5nUT0wBwLCCex3~2XoRXFhZHjjoN34E7RgVZuLNHcAYi1XjMwsLh4pC0SzDI6FX0-olPdB0UfX3mFVANWrC3N9V1jt-VQwnNfZl-3m3USwXRsjcXvYxdnJoWgllHM-TF2oOJ7LA__&Key-Pair-Id=KK4HN3OO4AT5R"
+        },
+        "horizontalBackdrop": {
+            "w360": "https://cdn.movieofthenight.com/show/68/backdrop/horizontal/360.jpg?Expires=1749001035&Signature=Bxf9CcCehTZgyA9nC-p15RPMlMv-girV3EBFDDV8FwKumvB~o0mf00WLAXgZz78jTek6l1sfX~adkP5Dt5~UJqr6AokCLCMbtwbb5u~KFbo3YrpazxD~AdlEFDHM46i5AU~DYcXMmZh4GveRlln6BO3rxAqAdeyF1~wNg7idk42KyMx4RO7y22S5ovUq1IsxhBzaTQFOpYDySKHQIAEVcLivyyjMTH18AtbjED2JtusES6-cLhaxkLOULWuDQD600Qk0VmAGF4d1yeV3PW6l~0dFmHEimjORsKUNVY-HJNm3hAaYGzij3Zp7-I8Pq9qjwHVwHpWiq-n4hPLqIK~9kQ__&Key-Pair-Id=KK4HN3OO4AT5R",
+            "w480": "https://cdn.movieofthenight.com/show/68/backdrop/horizontal/480.jpg?Expires=1749001035&Signature=Wim~sU~S02iGdx4s3pMjzFx3Z3f1dbzG7l0sM7d68dY2r9xVO1j8e7UkoT6pdBngT0BiQqAUzDybRjwr24ZRnHWyc22nSm5OtLeKWKPUVhpj4wwOOKkZJR8PKcdPxNoyvT6fFWqvx7M~y-A-xhmslGfybN7eYhhxaSt~5m3GEVhxmtz73-o0wz~js7KLf~t543LxAPaqxxV2DoLRtytDaiIPGBugrKxD7i~oGy7dY9vtFAvaUAWCS0jWvaKTm7PHAoC9xuK3tl2L-A5rUY2BlhRRehj9ky3oOfTctaqD5zjFBzGHkxIf~Jm98tky~g6VpjxjW0cTp24knXZRjd3a2A__&Key-Pair-Id=KK4HN3OO4AT5R",
+            "w720": "https://cdn.movieofthenight.com/show/68/backdrop/horizontal/720.jpg?Expires=1749001035&Signature=blRGeNiKTAeKnQw7rOG7ytjxW3sFEmigD4mUqiGr835RP1MxBq21S27SD~NTIVvkCLgE~6mHogZLPMR4iRID60SKlEV9ua8q3SvRQ7j3cxrmlAltgded14rE194~na21ybjIHuC2MnZnZOMD2zTnwsRT~fQTpfuUVZh2hkFsxOD2~SwwFmP-ZCN305DdgvrckOS2h3eJF~kcNSjq3S3er0GcTdJn~ecK6HRU3Vf42har4OIGBoN9Ytb1cTksz5P1Ond41KNi3sfCDuwDcpbd1sM-BXs-7roPErjJo8lMuvzYW-cXj9ZNI~liTno39vxYDLs75WfBh6kVr5oO5WPiQw__&Key-Pair-Id=KK4HN3OO4AT5R",
+            "w1080": "https://cdn.movieofthenight.com/show/68/backdrop/horizontal/1080.jpg?Expires=1749001035&Signature=B8pRIZehdLSjEgYQHoDapE1qzNcszO4gtWZGch-2KWuoE8-I-bvHS8jAx2An21FLQzk56bEjw6ZK0GPJMMHiAMpP05G64sMM2GjqRVxgcfI6xE7uMTYLjgckQ26wvrb0tOrrwrM19xxbbDMs8oiKmoHH-PkMiU6~0nWyBut6u-79JgghUp9QYVLYtG~QweojcXcfhy5CoZ-DQxEzZncF-2QynsYs7ffCyM2kzt9Q2MM1xhAE~fX2FwV9I-W11fL3oOhbDRPj9giNub2y1JoeKzouUvkw4pcK8w7vKdYG9w0eYy-thxKyU74u-bGLPeRpsSmCZ~AEnQJ-DhZ-bKoXhg__&Key-Pair-Id=KK4HN3OO4AT5R",
+            "w1440": "https://cdn.movieofthenight.com/show/68/backdrop/horizontal/1440.jpg?Expires=1749001035&Signature=G6CSnAe0wyoxblayZyqIs66dLTHtr33Ls-SPsE-RFm22rGTwPJq6yWceGSILrzGNQy8YRWVBZJ-~B0h21bSRUniEBLYhj0LtFAZovd0GuqAMTrP-hmQQZJ8kvn9GARnvtsul6rEdfE6R74FWf8b1EtYLDVrVRYAP1AqyNgOI3r7VcS7~fkh7vfJYcQJTVAVgCcHgudbbQH7jRfo09dZ8Yrs4ETwrCWKo~llfh-TFlktVv1PHj~6xX-dOxySBu-1p7pV48m17JnMZ1hwaIQmyhDCcN7UMCYUYT7MlTNrzkCZTSP~DuBT4TPTzR5VrioPz~0a4fZw-YmA15QRAyKb~sA__&Key-Pair-Id=KK4HN3OO4AT5R"
+        }
+    },
+    "streamingOptions": {
+        "at": [
+            {
+                "service": {
+                    "id": "prime",
+                    "name": "Prime Video",
+                    "homePage": "https://www.amazon.de/gp/video/storefront/",
+                    "themeColorCode": "#00A8E1",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/prime/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/prime/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/prime/logo-white.svg"
+                    }
+                },
+                "type": "rent",
+                "link": "https://www.amazon.de/gp/video/detail/B00K7AKZL2/ref=atv_dp",
+                "quality": "hd",
+                "audios": [
+                    {
+                        "language": "eng"
+                    }
+                ],
+                "subtitles": [],
+                "price": {
+                    "amount": "3.99",
+                    "currency": "EUR",
+                    "formatted": "3.99 EUR"
+                },
+                "expiresSoon": false,
+                "availableSince": 1689761215
+            },
+            {
+                "service": {
+                    "id": "prime",
+                    "name": "Prime Video",
+                    "homePage": "https://www.amazon.de/gp/video/storefront/",
+                    "themeColorCode": "#00A8E1",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/prime/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/prime/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/prime/logo-white.svg"
+                    }
+                },
+                "type": "buy",
+                "link": "https://www.amazon.de/gp/video/detail/B00G0OFW9O/ref=atv_dp",
+                "quality": "hd",
+                "audios": [
+                    {
+                        "language": "deu"
+                    },
+                    {
+                        "language": "eng"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "deu"
+                        }
+                    },
+                    {
+                        "closedCaptions": true,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    }
+                ],
+                "price": {
+                    "amount": "9.99",
+                    "currency": "EUR",
+                    "formatted": "9.99 EUR"
+                },
+                "expiresSoon": false,
+                "availableSince": 1689761243
+            },
+            {
+                "service": {
+                    "id": "prime",
+                    "name": "Prime Video",
+                    "homePage": "https://www.amazon.de/gp/video/storefront/",
+                    "themeColorCode": "#00A8E1",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/prime/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/prime/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/prime/logo-white.svg"
+                    }
+                },
+                "type": "subscription",
+                "link": "https://www.amazon.de/gp/video/detail/B00G0OFW9O/ref=atv_dp",
+                "quality": "sd",
+                "audios": [
+                    {
+                        "language": "deu"
+                    },
+                    {
+                        "language": "eng"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "deu"
+                        }
+                    },
+                    {
+                        "closedCaptions": true,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    }
+                ],
+                "expiresSoon": false,
+                "availableSince": 1712875911
+            },
+            {
+                "service": {
+                    "id": "prime",
+                    "name": "Prime Video",
+                    "homePage": "https://www.amazon.de/gp/video/storefront/",
+                    "themeColorCode": "#00A8E1",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/prime/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/prime/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/prime/logo-white.svg"
+                    }
+                },
+                "type": "buy",
+                "link": "https://www.amazon.de/gp/video/detail/B00K7AKZL2/ref=atv_dp",
+                "quality": "hd",
+                "audios": [
+                    {
+                        "language": "eng"
+                    }
+                ],
+                "subtitles": [],
+                "price": {
+                    "amount": "9.99",
+                    "currency": "EUR",
+                    "formatted": "9.99 EUR"
+                },
+                "expiresSoon": false,
+                "availableSince": 1689761215
+            },
+            {
+                "service": {
+                    "id": "prime",
+                    "name": "Prime Video",
+                    "homePage": "https://www.amazon.de/gp/video/storefront/",
+                    "themeColorCode": "#00A8E1",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/prime/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/prime/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/prime/logo-white.svg"
+                    }
+                },
+                "type": "rent",
+                "link": "https://www.amazon.de/gp/video/detail/B00G0OFW9O/ref=atv_dp",
+                "quality": "hd",
+                "audios": [
+                    {
+                        "language": "deu"
+                    },
+                    {
+                        "language": "eng"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "deu"
+                        }
+                    },
+                    {
+                        "closedCaptions": true,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    }
+                ],
+                "price": {
+                    "amount": "3.99",
+                    "currency": "EUR",
+                    "formatted": "3.99 EUR"
+                },
+                "expiresSoon": false,
+                "availableSince": 1689761243
+            },
+            {
+                "service": {
+                    "id": "prime",
+                    "name": "Prime Video",
+                    "homePage": "https://www.amazon.de/gp/video/storefront/",
+                    "themeColorCode": "#00A8E1",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/prime/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/prime/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/prime/logo-white.svg"
+                    }
+                },
+                "type": "subscription",
+                "link": "https://www.amazon.de/gp/video/detail/B00K7AKZL2/ref=atv_dp",
+                "quality": "sd",
+                "audios": [
+                    {
+                        "language": "eng"
+                    }
+                ],
+                "subtitles": [],
+                "expiresSoon": false,
+                "availableSince": 1712875771
+            }
+        ],
+        "de": [
+            {
+                "service": {
+                    "id": "prime",
+                    "name": "Prime Video",
+                    "homePage": "https://www.amazon.de/gp/video/storefront/",
+                    "themeColorCode": "#00A8E1",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/prime/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/prime/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/prime/logo-white.svg"
+                    }
+                },
+                "type": "subscription",
+                "link": "https://www.amazon.de/gp/video/detail/B00K7AKZL2/ref=atv_dp",
+                "quality": "sd",
+                "audios": [
+                    {
+                        "language": "eng"
+                    }
+                ],
+                "subtitles": [],
+                "expiresSoon": false,
+                "availableSince": 1713284908
+            },
+            {
+                "service": {
+                    "id": "prime",
+                    "name": "Prime Video",
+                    "homePage": "https://www.amazon.de/gp/video/storefront/",
+                    "themeColorCode": "#00A8E1",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/prime/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/prime/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/prime/logo-white.svg"
+                    }
+                },
+                "type": "rent",
+                "link": "https://www.amazon.de/gp/video/detail/B00G0OFW9O/ref=atv_dp",
+                "quality": "hd",
+                "audios": [
+                    {
+                        "language": "deu"
+                    },
+                    {
+                        "language": "eng"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "deu"
+                        }
+                    },
+                    {
+                        "closedCaptions": true,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    }
+                ],
+                "price": {
+                    "amount": "3.99",
+                    "currency": "EUR",
+                    "formatted": "3.99 EUR"
+                },
+                "expiresSoon": false,
+                "availableSince": 1690352668
+            },
+            {
+                "service": {
+                    "id": "prime",
+                    "name": "Prime Video",
+                    "homePage": "https://www.amazon.de/gp/video/storefront/",
+                    "themeColorCode": "#00A8E1",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/prime/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/prime/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/prime/logo-white.svg"
+                    }
+                },
+                "type": "subscription",
+                "link": "https://www.amazon.de/gp/video/detail/B00G0OFW9O/ref=atv_dp",
+                "quality": "sd",
+                "audios": [
+                    {
+                        "language": "deu"
+                    },
+                    {
+                        "language": "eng"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "deu"
+                        }
+                    },
+                    {
+                        "closedCaptions": true,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    }
+                ],
+                "expiresSoon": false,
+                "availableSince": 1712705631
+            },
+            {
+                "service": {
+                    "id": "prime",
+                    "name": "Prime Video",
+                    "homePage": "https://www.amazon.de/gp/video/storefront/",
+                    "themeColorCode": "#00A8E1",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/prime/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/prime/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/prime/logo-white.svg"
+                    }
+                },
+                "type": "rent",
+                "link": "https://www.amazon.de/gp/video/detail/B00K7AKZL2/ref=atv_dp",
+                "quality": "hd",
+                "audios": [
+                    {
+                        "language": "eng"
+                    }
+                ],
+                "subtitles": [],
+                "price": {
+                    "amount": "3.99",
+                    "currency": "EUR",
+                    "formatted": "3.99 EUR"
+                },
+                "expiresSoon": false,
+                "availableSince": 1690352643
+            },
+            {
+                "service": {
+                    "id": "prime",
+                    "name": "Prime Video",
+                    "homePage": "https://www.amazon.de/gp/video/storefront/",
+                    "themeColorCode": "#00A8E1",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/prime/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/prime/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/prime/logo-white.svg"
+                    }
+                },
+                "type": "buy",
+                "link": "https://www.amazon.de/gp/video/detail/B00G0OFW9O/ref=atv_dp",
+                "quality": "hd",
+                "audios": [
+                    {
+                        "language": "deu"
+                    },
+                    {
+                        "language": "eng"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "deu"
+                        }
+                    },
+                    {
+                        "closedCaptions": true,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    }
+                ],
+                "price": {
+                    "amount": "9.99",
+                    "currency": "EUR",
+                    "formatted": "9.99 EUR"
+                },
+                "expiresSoon": false,
+                "availableSince": 1690352668
+            },
+            {
+                "service": {
+                    "id": "prime",
+                    "name": "Prime Video",
+                    "homePage": "https://www.amazon.de/gp/video/storefront/",
+                    "themeColorCode": "#00A8E1",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/prime/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/prime/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/prime/logo-white.svg"
+                    }
+                },
+                "type": "buy",
+                "link": "https://www.amazon.de/gp/video/detail/B00K7AKZL2/ref=atv_dp",
+                "quality": "hd",
+                "audios": [
+                    {
+                        "language": "eng"
+                    }
+                ],
+                "subtitles": [],
+                "price": {
+                    "amount": "9.99",
+                    "currency": "EUR",
+                    "formatted": "9.99 EUR"
+                },
+                "expiresSoon": false,
+                "availableSince": 1690352643
+            }
+        ],
+        "be": [
+            {
+                "service": {
+                    "id": "netflix",
+                    "name": "Netflix",
+                    "homePage": "https://www.netflix.com/",
+                    "themeColorCode": "#E50914",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+                    }
+                },
+                "type": "subscription",
+                "link": "https://www.netflix.com/title/70079583/",
+                "videoLink": "https://www.netflix.com/watch/70079583",
+                "quality": "hd",
+                "audios": [
+                    {
+                        "language": "eng"
+                    },
+                    {
+                        "language": "fra"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "fra"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "nld"
+                        }
+                    }
+                ],
+                "expiresSoon": false,
+                "availableSince": 1650625360
+            }
+        ],
+        "pe": [
+            {
+                "service": {
+                    "id": "hbo",
+                    "name": "Max",
+                    "homePage": "https://play.max.com/",
+                    "themeColorCode": "#002be7",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/hbo/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/hbo/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/hbo/logo-white.svg"
+                    }
+                },
+                "type": "subscription",
+                "link": "https://play.max.com/movie/52217243-a137-45d6-9c6a-0dfab4633034",
+                "videoLink": "https://play.max.com/video/watch/46c5fcd3-9081-49e1-941f-5f31abd27f98/b6a82b24-bcfe-453d-9b9d-563a5ad02a99",
+                "quality": "uhd",
+                "audios": [
+                    {
+                        "language": "ces"
+                    },
+                    {
+                        "language": "eng"
+                    },
+                    {
+                        "language": "hun"
+                    },
+                    {
+                        "language": "por"
+                    },
+                    {
+                        "language": "spa"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "bul"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "ces"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "dan"
+                        }
+                    },
+                    {
+                        "closedCaptions": true,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "fin"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "fra"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "hrv"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "hun"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "mkd"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "nld"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "por"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "ron"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "spa"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "srp"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "swe"
+                        }
+                    }
+                ],
+                "expiresSoon": false,
+                "expiresOn": 1735441200,
+                "availableSince": 1716676390
+            }
+        ],
+        "es": [
+            {
+                "service": {
+                    "id": "netflix",
+                    "name": "Netflix",
+                    "homePage": "https://www.netflix.com/",
+                    "themeColorCode": "#E50914",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+                    }
+                },
+                "type": "subscription",
+                "link": "https://www.netflix.com/title/70079583/",
+                "videoLink": "https://www.netflix.com/watch/70079583",
+                "quality": "hd",
+                "audios": [
+                    {
+                        "language": "eng"
+                    },
+                    {
+                        "language": "spa",
+                        "region": "ESP"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "spa",
+                            "region": "ESP"
+                        }
+                    }
+                ],
+                "expiresSoon": false,
+                "availableSince": 1699153134
+            },
+            {
+                "service": {
+                    "id": "hbo",
+                    "name": "Max",
+                    "homePage": "https://play.max.com/",
+                    "themeColorCode": "#002be7",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/hbo/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/hbo/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/hbo/logo-white.svg"
+                    }
+                },
+                "type": "subscription",
+                "link": "https://play.max.com/movie/52217243-a137-45d6-9c6a-0dfab4633034",
+                "videoLink": "https://play.max.com/video/watch/46c5fcd3-9081-49e1-941f-5f31abd27f98/a9e82cdb-a0ea-4519-8742-aa0e86f185a5",
+                "audios": [
+                    {
+                        "language": "cat"
+                    },
+                    {
+                        "language": "eng"
+                    },
+                    {
+                        "language": "spa"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "cat"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "spa"
+                        }
+                    }
+                ],
+                "expiresSoon": false,
+                "expiresOn": 1745618340,
+                "availableSince": 1716716732
+            }
+        ],
+        "dk": [
+            {
+                "service": {
+                    "id": "hbo",
+                    "name": "Max",
+                    "homePage": "https://play.max.com/",
+                    "themeColorCode": "#002be7",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/hbo/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/hbo/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/hbo/logo-white.svg"
+                    }
+                },
+                "type": "subscription",
+                "link": "https://play.max.com/movie/52217243-a137-45d6-9c6a-0dfab4633034",
+                "videoLink": "https://play.max.com/video/watch/46c5fcd3-9081-49e1-941f-5f31abd27f98/a9e82cdb-a0ea-4519-8742-aa0e86f185a5",
+                "audios": [
+                    {
+                        "language": "eng"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "dan"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "fin"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "swe"
+                        }
+                    }
+                ],
+                "expiresSoon": false,
+                "expiresOn": 1729893540,
+                "availableSince": 1716699512
+            }
+        ],
+        "si": [
+            {
+                "service": {
+                    "id": "netflix",
+                    "name": "Netflix",
+                    "homePage": "https://www.netflix.com/",
+                    "themeColorCode": "#E50914",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+                    }
+                },
+                "type": "subscription",
+                "link": "https://www.netflix.com/title/70079583/",
+                "videoLink": "https://www.netflix.com/watch/70079583",
+                "quality": "hd",
+                "audios": [
+                    {
+                        "language": "eng"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "hun"
+                        }
+                    }
+                ],
+                "expiresSoon": false,
+                "availableSince": 1709166309
+            },
+            {
+                "service": {
+                    "id": "hbo",
+                    "name": "Max",
+                    "homePage": "https://play.max.com/",
+                    "themeColorCode": "#002be7",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/hbo/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/hbo/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/hbo/logo-white.svg"
+                    }
+                },
+                "type": "subscription",
+                "link": "https://play.max.com/movie/52217243-a137-45d6-9c6a-0dfab4633034",
+                "videoLink": "https://play.max.com/video/watch/46c5fcd3-9081-49e1-941f-5f31abd27f98/a9e82cdb-a0ea-4519-8742-aa0e86f185a5",
+                "audios": [
+                    {
+                        "language": "eng"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "hrv"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "mkd"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "srp"
+                        }
+                    }
+                ],
+                "expiresSoon": false,
+                "expiresOn": 1741388340,
+                "availableSince": 1716691122
+            }
+        ],
+        "in": [
+            {
+                "service": {
+                    "id": "prime",
+                    "name": "Prime Video",
+                    "homePage": "https://www.primevideo.com",
+                    "themeColorCode": "#00A8E1",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/prime/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/prime/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/prime/logo-white.svg"
+                    }
+                },
+                "type": "rent",
+                "link": "https://www.primevideo.com/region/eu/detail/0QSTXR0EXWWYI4D3UGMLFM4A0Q/ref=atv_dp",
+                "quality": "hd",
+                "audios": [
+                    {
+                        "language": "eng"
+                    },
+                    {
+                        "language": "hin"
+                    },
+                    {
+                        "language": "tam"
+                    },
+                    {
+                        "language": "tel"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": true,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    }
+                ],
+                "price": {
+                    "amount": "119",
+                    "currency": "INR",
+                    "formatted": "119 INR"
+                },
+                "expiresSoon": false,
+                "availableSince": 1690131729
+            },
+            {
+                "service": {
+                    "id": "netflix",
+                    "name": "Netflix",
+                    "homePage": "https://www.netflix.com/",
+                    "themeColorCode": "#E50914",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+                    }
+                },
+                "type": "subscription",
+                "link": "https://www.netflix.com/title/70079583/",
+                "videoLink": "https://www.netflix.com/watch/70079583",
+                "quality": "hd",
+                "audios": [
+                    {
+                        "language": "eng"
+                    },
+                    {
+                        "language": "hin"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    }
+                ],
+                "expiresSoon": false,
+                "availableSince": 1706053058
+            },
+            {
+                "service": {
+                    "id": "prime",
+                    "name": "Prime Video",
+                    "homePage": "https://www.primevideo.com",
+                    "themeColorCode": "#00A8E1",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/prime/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/prime/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/prime/logo-white.svg"
+                    }
+                },
+                "type": "subscription",
+                "link": "https://www.primevideo.com/region/eu/detail/0QSTXR0EXWWYI4D3UGMLFM4A0Q/ref=atv_dp",
+                "quality": "sd",
+                "audios": [
+                    {
+                        "language": "eng"
+                    },
+                    {
+                        "language": "hin"
+                    },
+                    {
+                        "language": "tam"
+                    },
+                    {
+                        "language": "tel"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": true,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    }
+                ],
+                "expiresSoon": false,
+                "availableSince": 1708089675
+            }
+        ],
+        "mx": [
+            {
+                "service": {
+                    "id": "hbo",
+                    "name": "Max",
+                    "homePage": "https://play.max.com/",
+                    "themeColorCode": "#002be7",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/hbo/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/hbo/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/hbo/logo-white.svg"
+                    }
+                },
+                "type": "subscription",
+                "link": "https://play.max.com/movie/52217243-a137-45d6-9c6a-0dfab4633034",
+                "videoLink": "https://play.max.com/video/watch/46c5fcd3-9081-49e1-941f-5f31abd27f98/b6a82b24-bcfe-453d-9b9d-563a5ad02a99",
+                "quality": "uhd",
+                "audios": [
+                    {
+                        "language": "ces"
+                    },
+                    {
+                        "language": "eng"
+                    },
+                    {
+                        "language": "hun"
+                    },
+                    {
+                        "language": "por"
+                    },
+                    {
+                        "language": "spa"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "bul"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "ces"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "dan"
+                        }
+                    },
+                    {
+                        "closedCaptions": true,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "fin"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "fra"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "hrv"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "hun"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "mkd"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "nld"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "por"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "ron"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "spa"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "srp"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "swe"
+                        }
+                    }
+                ],
+                "expiresSoon": false,
+                "expiresOn": 1735452000,
+                "availableSince": 1716743570
+            }
+        ],
+        "hu": [
+            {
+                "service": {
+                    "id": "netflix",
+                    "name": "Netflix",
+                    "homePage": "https://www.netflix.com/",
+                    "themeColorCode": "#E50914",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+                    }
+                },
+                "type": "subscription",
+                "link": "https://www.netflix.com/title/70079583/",
+                "videoLink": "https://www.netflix.com/watch/70079583",
+                "quality": "hd",
+                "audios": [
+                    {
+                        "language": "eng"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "hun"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "ron"
+                        }
+                    }
+                ],
+                "expiresSoon": false,
+                "availableSince": 1705307473
+            },
+            {
+                "service": {
+                    "id": "hbo",
+                    "name": "Max",
+                    "homePage": "https://play.max.com/",
+                    "themeColorCode": "#002be7",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/hbo/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/hbo/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/hbo/logo-white.svg"
+                    }
+                },
+                "type": "subscription",
+                "link": "https://play.max.com/movie/52217243-a137-45d6-9c6a-0dfab4633034",
+                "videoLink": "https://play.max.com/video/watch/46c5fcd3-9081-49e1-941f-5f31abd27f98/a9e82cdb-a0ea-4519-8742-aa0e86f185a5",
+                "audios": [
+                    {
+                        "language": "eng"
+                    },
+                    {
+                        "language": "hun"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "hun"
+                        }
+                    }
+                ],
+                "expiresSoon": false,
+                "expiresOn": 1741388340,
+                "availableSince": 1716739343
+            }
+        ],
+        "it": [
+            {
+                "service": {
+                    "id": "now",
+                    "name": "Now",
+                    "homePage": "https://www.nowtv.it",
+                    "themeColorCode": "#00818a",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/now/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/now/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/now/logo-white.svg"
+                    }
+                },
+                "type": "subscription",
+                "link": "https://www.nowtv.it/watch/il-cavaliere-oscuro-2008/R_179065",
+                "audios": [
+                    {
+                        "language": "ita"
+                    }
+                ],
+                "subtitles": [],
+                "expiresSoon": false,
+                "expiresOn": 1798671599,
+                "availableSince": 1704133415
+            }
+        ],
+        "mk": [
+            {
+                "service": {
+                    "id": "netflix",
+                    "name": "Netflix",
+                    "homePage": "https://www.netflix.com/",
+                    "themeColorCode": "#E50914",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+                    }
+                },
+                "type": "subscription",
+                "link": "https://www.netflix.com/title/70079583/",
+                "videoLink": "https://www.netflix.com/watch/70079583",
+                "quality": "hd",
+                "audios": [
+                    {
+                        "language": "eng"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    }
+                ],
+                "expiresSoon": false,
+                "availableSince": 1705332181
+            },
+            {
+                "service": {
+                    "id": "hbo",
+                    "name": "Max",
+                    "homePage": "https://play.max.com/",
+                    "themeColorCode": "#002be7",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/hbo/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/hbo/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/hbo/logo-white.svg"
+                    }
+                },
+                "type": "subscription",
+                "link": "https://play.max.com/movie/52217243-a137-45d6-9c6a-0dfab4633034",
+                "videoLink": "https://play.max.com/video/watch/46c5fcd3-9081-49e1-941f-5f31abd27f98/a9e82cdb-a0ea-4519-8742-aa0e86f185a5",
+                "audios": [
+                    {
+                        "language": "eng"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "hrv"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "mkd"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "srp"
+                        }
+                    }
+                ],
+                "expiresSoon": false,
+                "expiresOn": 1741388340,
+                "availableSince": 1716737185
+            }
+        ],
+        "jp": [
+            {
+                "service": {
+                    "id": "netflix",
+                    "name": "Netflix",
+                    "homePage": "https://www.netflix.com/",
+                    "themeColorCode": "#E50914",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+                    }
+                },
+                "type": "subscription",
+                "link": "https://www.netflix.com/title/70079583/",
+                "videoLink": "https://www.netflix.com/watch/70079583",
+                "quality": "hd",
+                "audios": [
+                    {
+                        "language": "eng"
+                    },
+                    {
+                        "language": "jpn"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "jpn"
+                        }
+                    }
+                ],
+                "expiresSoon": false,
+                "availableSince": 1688705944
+            }
+        ],
+        "ar": [
+            {
+                "service": {
+                    "id": "hbo",
+                    "name": "Max",
+                    "homePage": "https://play.max.com/",
+                    "themeColorCode": "#002be7",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/hbo/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/hbo/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/hbo/logo-white.svg"
+                    }
+                },
+                "type": "subscription",
+                "link": "https://play.max.com/movie/52217243-a137-45d6-9c6a-0dfab4633034",
+                "videoLink": "https://play.max.com/video/watch/46c5fcd3-9081-49e1-941f-5f31abd27f98/b6a82b24-bcfe-453d-9b9d-563a5ad02a99",
+                "quality": "uhd",
+                "audios": [
+                    {
+                        "language": "ces"
+                    },
+                    {
+                        "language": "eng"
+                    },
+                    {
+                        "language": "hun"
+                    },
+                    {
+                        "language": "por"
+                    },
+                    {
+                        "language": "spa"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "bul"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "ces"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "dan"
+                        }
+                    },
+                    {
+                        "closedCaptions": true,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "fin"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "fra"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "hrv"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "hun"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "mkd"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "nld"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "por"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "ron"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "spa"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "srp"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "swe"
+                        }
+                    }
+                ],
+                "expiresSoon": false,
+                "expiresOn": 1735441200,
+                "availableSince": 1716681752
+            }
+        ],
+        "hr": [
+            {
+                "service": {
+                    "id": "netflix",
+                    "name": "Netflix",
+                    "homePage": "https://www.netflix.com/",
+                    "themeColorCode": "#E50914",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+                    }
+                },
+                "type": "subscription",
+                "link": "https://www.netflix.com/title/70079583/",
+                "videoLink": "https://www.netflix.com/watch/70079583",
+                "quality": "hd",
+                "audios": [
+                    {
+                        "language": "eng"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    }
+                ],
+                "expiresSoon": false,
+                "availableSince": 1705331639
+            },
+            {
+                "service": {
+                    "id": "hbo",
+                    "name": "Max",
+                    "homePage": "https://play.max.com/",
+                    "themeColorCode": "#002be7",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/hbo/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/hbo/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/hbo/logo-white.svg"
+                    }
+                },
+                "type": "subscription",
+                "link": "https://play.max.com/movie/52217243-a137-45d6-9c6a-0dfab4633034",
+                "videoLink": "https://play.max.com/video/watch/46c5fcd3-9081-49e1-941f-5f31abd27f98/a9e82cdb-a0ea-4519-8742-aa0e86f185a5",
+                "audios": [
+                    {
+                        "language": "eng"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "hrv"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "mkd"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "srp"
+                        }
+                    }
+                ],
+                "expiresSoon": false,
+                "expiresOn": 1741388340,
+                "availableSince": 1716757704
+            }
+        ],
+        "ec": [
+            {
+                "service": {
+                    "id": "hbo",
+                    "name": "Max",
+                    "homePage": "https://play.max.com/",
+                    "themeColorCode": "#002be7",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/hbo/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/hbo/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/hbo/logo-white.svg"
+                    }
+                },
+                "type": "subscription",
+                "link": "https://play.max.com/movie/52217243-a137-45d6-9c6a-0dfab4633034",
+                "videoLink": "https://play.max.com/video/watch/46c5fcd3-9081-49e1-941f-5f31abd27f98/b6a82b24-bcfe-453d-9b9d-563a5ad02a99",
+                "quality": "uhd",
+                "audios": [
+                    {
+                        "language": "ces"
+                    },
+                    {
+                        "language": "eng"
+                    },
+                    {
+                        "language": "hun"
+                    },
+                    {
+                        "language": "por"
+                    },
+                    {
+                        "language": "spa"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "bul"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "ces"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "dan"
+                        }
+                    },
+                    {
+                        "closedCaptions": true,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "fin"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "fra"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "hrv"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "hun"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "mkd"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "nld"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "por"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "ron"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "spa"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "srp"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "swe"
+                        }
+                    }
+                ],
+                "expiresSoon": false,
+                "expiresOn": 1735441200,
+                "availableSince": 1716765711
+            }
+        ],
+        "md": [
+            {
+                "service": {
+                    "id": "netflix",
+                    "name": "Netflix",
+                    "homePage": "https://www.netflix.com/",
+                    "themeColorCode": "#E50914",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+                    }
+                },
+                "type": "subscription",
+                "link": "https://www.netflix.com/title/70079583/",
+                "videoLink": "https://www.netflix.com/watch/70079583",
+                "quality": "hd",
+                "audios": [
+                    {
+                        "language": "eng"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "ron"
+                        }
+                    }
+                ],
+                "expiresSoon": false,
+                "availableSince": 1705199893
+            },
+            {
+                "service": {
+                    "id": "hbo",
+                    "name": "Max",
+                    "homePage": "https://play.max.com/",
+                    "themeColorCode": "#002be7",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/hbo/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/hbo/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/hbo/logo-white.svg"
+                    }
+                },
+                "type": "subscription",
+                "link": "https://play.max.com/movie/52217243-a137-45d6-9c6a-0dfab4633034",
+                "videoLink": "https://play.max.com/video/watch/46c5fcd3-9081-49e1-941f-5f31abd27f98/a9e82cdb-a0ea-4519-8742-aa0e86f185a5",
+                "audios": [
+                    {
+                        "language": "eng"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "ron"
+                        }
+                    }
+                ],
+                "expiresSoon": false,
+                "expiresOn": 1741384740,
+                "availableSince": 1716740774
+            }
+        ],
+        "no": [
+            {
+                "service": {
+                    "id": "hbo",
+                    "name": "Max",
+                    "homePage": "https://play.max.com/",
+                    "themeColorCode": "#002be7",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/hbo/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/hbo/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/hbo/logo-white.svg"
+                    }
+                },
+                "type": "subscription",
+                "link": "https://play.max.com/movie/52217243-a137-45d6-9c6a-0dfab4633034",
+                "videoLink": "https://play.max.com/video/watch/46c5fcd3-9081-49e1-941f-5f31abd27f98/a9e82cdb-a0ea-4519-8742-aa0e86f185a5",
+                "audios": [
+                    {
+                        "language": "eng"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "dan"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "fin"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "swe"
+                        }
+                    }
+                ],
+                "expiresSoon": false,
+                "expiresOn": 1729893540,
+                "availableSince": 1716436444
+            },
+            {
+                "service": {
+                    "id": "netflix",
+                    "name": "Netflix",
+                    "homePage": "https://www.netflix.com/",
+                    "themeColorCode": "#E50914",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+                    }
+                },
+                "type": "subscription",
+                "link": "https://www.netflix.com/title/70079583/",
+                "videoLink": "https://www.netflix.com/watch/70079583",
+                "quality": "hd",
+                "audios": [
+                    {
+                        "language": "eng"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "nob"
+                        }
+                    }
+                ],
+                "expiresSoon": false,
+                "availableSince": 1705328011
+            }
+        ],
+        "pl": [
+            {
+                "service": {
+                    "id": "netflix",
+                    "name": "Netflix",
+                    "homePage": "https://www.netflix.com/",
+                    "themeColorCode": "#E50914",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+                    }
+                },
+                "type": "subscription",
+                "link": "https://www.netflix.com/title/70079583/",
+                "videoLink": "https://www.netflix.com/watch/70079583",
+                "quality": "hd",
+                "audios": [
+                    {
+                        "language": "eng"
+                    },
+                    {
+                        "language": "pol"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "pol"
+                        }
+                    }
+                ],
+                "expiresSoon": false,
+                "availableSince": 1705194895
+            }
+        ],
+        "cl": [
+            {
+                "service": {
+                    "id": "hbo",
+                    "name": "Max",
+                    "homePage": "https://play.max.com/",
+                    "themeColorCode": "#002be7",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/hbo/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/hbo/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/hbo/logo-white.svg"
+                    }
+                },
+                "type": "subscription",
+                "link": "https://play.max.com/movie/52217243-a137-45d6-9c6a-0dfab4633034",
+                "videoLink": "https://play.max.com/video/watch/46c5fcd3-9081-49e1-941f-5f31abd27f98/b6a82b24-bcfe-453d-9b9d-563a5ad02a99",
+                "quality": "uhd",
+                "audios": [
+                    {
+                        "language": "ces"
+                    },
+                    {
+                        "language": "eng"
+                    },
+                    {
+                        "language": "hun"
+                    },
+                    {
+                        "language": "por"
+                    },
+                    {
+                        "language": "spa"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "bul"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "ces"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "dan"
+                        }
+                    },
+                    {
+                        "closedCaptions": true,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "fin"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "fra"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "hrv"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "hun"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "mkd"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "nld"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "por"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "ron"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "spa"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "srp"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "swe"
+                        }
+                    }
+                ],
+                "expiresSoon": false,
+                "expiresOn": 1735441200,
+                "availableSince": 1716763306
+            }
+        ],
+        "ca": [
+            {
+                "service": {
+                    "id": "netflix",
+                    "name": "Netflix",
+                    "homePage": "https://www.netflix.com/",
+                    "themeColorCode": "#E50914",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+                    }
+                },
+                "type": "subscription",
+                "link": "https://www.netflix.com/title/70079583/",
+                "videoLink": "https://www.netflix.com/watch/70079583",
+                "quality": "hd",
+                "audios": [
+                    {
+                        "language": "eng"
+                    },
+                    {
+                        "language": "fra"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "fra",
+                            "region": "CAN"
+                        }
+                    }
+                ],
+                "expiresSoon": false,
+                "availableSince": 1704615675
+            },
+            {
+                "service": {
+                    "id": "crave",
+                    "name": "Crave",
+                    "homePage": "https://www.crave.ca/en",
+                    "themeColorCode": "#29C2F1",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/crave/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/crave/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/crave/logo-white.svg"
+                    }
+                },
+                "type": "subscription",
+                "link": "https://www.crave.ca/en/movies/the-dark-knight",
+                "audios": [
+                    {
+                        "language": "eng"
+                    },
+                    {
+                        "language": "fra"
+                    }
+                ],
+                "subtitles": [],
+                "expiresSoon": false,
+                "availableSince": 1652524560
+            }
+        ],
+        "br": [
+            {
+                "service": {
+                    "id": "hbo",
+                    "name": "Max",
+                    "homePage": "https://play.max.com/",
+                    "themeColorCode": "#002be7",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/hbo/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/hbo/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/hbo/logo-white.svg"
+                    }
+                },
+                "type": "subscription",
+                "link": "https://play.max.com/movie/52217243-a137-45d6-9c6a-0dfab4633034",
+                "videoLink": "https://play.max.com/video/watch/46c5fcd3-9081-49e1-941f-5f31abd27f98/b6a82b24-bcfe-453d-9b9d-563a5ad02a99",
+                "quality": "uhd",
+                "audios": [
+                    {
+                        "language": "ces"
+                    },
+                    {
+                        "language": "eng"
+                    },
+                    {
+                        "language": "hun"
+                    },
+                    {
+                        "language": "por"
+                    },
+                    {
+                        "language": "spa"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "bul"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "ces"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "dan"
+                        }
+                    },
+                    {
+                        "closedCaptions": true,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "fin"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "fra"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "hrv"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "hun"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "mkd"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "nld"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "por"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "ron"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "spa"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "srp"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "swe"
+                        }
+                    }
+                ],
+                "expiresSoon": false,
+                "expiresOn": 1735441200,
+                "availableSince": 1716510072
+            }
+        ],
+        "tr": [
+            {
+                "service": {
+                    "id": "netflix",
+                    "name": "Netflix",
+                    "homePage": "https://www.netflix.com/",
+                    "themeColorCode": "#E50914",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+                    }
+                },
+                "type": "subscription",
+                "link": "https://www.netflix.com/title/70079583/",
+                "audios": [],
+                "subtitles": [],
+                "expiresSoon": false,
+                "availableSince": 1649233522
+            }
+        ],
+        "bg": [
+            {
+                "service": {
+                    "id": "netflix",
+                    "name": "Netflix",
+                    "homePage": "https://www.netflix.com/",
+                    "themeColorCode": "#E50914",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+                    }
+                },
+                "type": "subscription",
+                "link": "https://www.netflix.com/title/70079583/",
+                "videoLink": "https://www.netflix.com/watch/70079583",
+                "quality": "hd",
+                "audios": [
+                    {
+                        "language": "eng"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    }
+                ],
+                "expiresSoon": false,
+                "availableSince": 1705226996
+            },
+            {
+                "service": {
+                    "id": "hbo",
+                    "name": "Max",
+                    "homePage": "https://play.max.com/",
+                    "themeColorCode": "#002be7",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/hbo/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/hbo/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/hbo/logo-white.svg"
+                    }
+                },
+                "type": "subscription",
+                "link": "https://play.max.com/movie/52217243-a137-45d6-9c6a-0dfab4633034",
+                "videoLink": "https://play.max.com/video/watch/46c5fcd3-9081-49e1-941f-5f31abd27f98/a9e82cdb-a0ea-4519-8742-aa0e86f185a5",
+                "audios": [
+                    {
+                        "language": "eng"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "bul"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    }
+                ],
+                "expiresSoon": false,
+                "expiresOn": 1741384740,
+                "availableSince": 1716483732
+            }
+        ],
+        "pa": [
+            {
+                "service": {
+                    "id": "hbo",
+                    "name": "Max",
+                    "homePage": "https://play.max.com/",
+                    "themeColorCode": "#002be7",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/hbo/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/hbo/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/hbo/logo-white.svg"
+                    }
+                },
+                "type": "subscription",
+                "link": "https://play.max.com/movie/52217243-a137-45d6-9c6a-0dfab4633034",
+                "videoLink": "https://play.max.com/video/watch/46c5fcd3-9081-49e1-941f-5f31abd27f98/b6a82b24-bcfe-453d-9b9d-563a5ad02a99",
+                "quality": "uhd",
+                "audios": [
+                    {
+                        "language": "ces"
+                    },
+                    {
+                        "language": "eng"
+                    },
+                    {
+                        "language": "hun"
+                    },
+                    {
+                        "language": "por"
+                    },
+                    {
+                        "language": "spa"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "bul"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "ces"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "dan"
+                        }
+                    },
+                    {
+                        "closedCaptions": true,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "fin"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "fra"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "hrv"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "hun"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "mkd"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "nld"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "por"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "ron"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "spa"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "srp"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "swe"
+                        }
+                    }
+                ],
+                "expiresSoon": false,
+                "expiresOn": 1735441200,
+                "availableSince": 1716735585
+            }
+        ],
+        "se": [
+            {
+                "service": {
+                    "id": "netflix",
+                    "name": "Netflix",
+                    "homePage": "https://www.netflix.com/",
+                    "themeColorCode": "#E50914",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+                    }
+                },
+                "type": "subscription",
+                "link": "https://www.netflix.com/title/70079583/",
+                "videoLink": "https://www.netflix.com/watch/70079583",
+                "quality": "hd",
+                "audios": [
+                    {
+                        "language": "eng"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "dan"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "fin"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "nob"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "swe"
+                        }
+                    }
+                ],
+                "expiresSoon": false,
+                "availableSince": 1705195932
+            },
+            {
+                "service": {
+                    "id": "hbo",
+                    "name": "Max",
+                    "homePage": "https://play.max.com/",
+                    "themeColorCode": "#002be7",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/hbo/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/hbo/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/hbo/logo-white.svg"
+                    }
+                },
+                "type": "subscription",
+                "link": "https://play.max.com/movie/52217243-a137-45d6-9c6a-0dfab4633034",
+                "videoLink": "https://play.max.com/video/watch/46c5fcd3-9081-49e1-941f-5f31abd27f98/a9e82cdb-a0ea-4519-8742-aa0e86f185a5",
+                "audios": [
+                    {
+                        "language": "eng"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "dan"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "fin"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "swe"
+                        }
+                    }
+                ],
+                "expiresSoon": false,
+                "expiresOn": 1729893540,
+                "availableSince": 1716498320
+            }
+        ],
+        "ie": [
+            {
+                "service": {
+                    "id": "now",
+                    "name": "Now",
+                    "homePage": "https://www.nowtv.com/ie",
+                    "themeColorCode": "#00818a",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/now/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/now/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/now/logo-white.svg"
+                    }
+                },
+                "type": "addon",
+                "addon": {
+                    "id": "movies",
+                    "name": "Cinema",
+                    "homePage": "https://www.nowtv.com/ie/watch-movies-online",
+                    "themeColorCode": "#ffffff",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/now/ie/addons/movies.png",
+                        "darkThemeImage": "",
+                        "whiteImage": ""
+                    }
+                },
+                "link": "https://www.nowtv.com/ie/online/the-dark-knight-2008/A5EK6sKrAaydmp1JYfy1h",
+                "audios": [
+                    {
+                        "language": "eng"
+                    }
+                ],
+                "subtitles": [],
+                "expiresSoon": false,
+                "expiresOn": 1735689599,
+                "availableSince": 1659608917
+            }
+        ],
+        "cz": [
+            {
+                "service": {
+                    "id": "netflix",
+                    "name": "Netflix",
+                    "homePage": "https://www.netflix.com/",
+                    "themeColorCode": "#E50914",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+                    }
+                },
+                "type": "subscription",
+                "link": "https://www.netflix.com/title/70079583/",
+                "videoLink": "https://www.netflix.com/watch/70079583",
+                "quality": "hd",
+                "audios": [
+                    {
+                        "language": "eng"
+                    },
+                    {
+                        "language": "pol"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "ces"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "pol"
+                        }
+                    }
+                ],
+                "expiresSoon": false,
+                "availableSince": 1705305843
+            },
+            {
+                "service": {
+                    "id": "hbo",
+                    "name": "Max",
+                    "homePage": "https://play.max.com/",
+                    "themeColorCode": "#002be7",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/hbo/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/hbo/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/hbo/logo-white.svg"
+                    }
+                },
+                "type": "subscription",
+                "link": "https://play.max.com/movie/52217243-a137-45d6-9c6a-0dfab4633034",
+                "videoLink": "https://play.max.com/video/watch/46c5fcd3-9081-49e1-941f-5f31abd27f98/a9e82cdb-a0ea-4519-8742-aa0e86f185a5",
+                "audios": [
+                    {
+                        "language": "ces"
+                    },
+                    {
+                        "language": "eng"
+                    },
+                    {
+                        "language": "slk"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "ces"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "slk"
+                        }
+                    }
+                ],
+                "expiresSoon": false,
+                "expiresOn": 1741388340,
+                "availableSince": 1716623287
+            }
+        ],
+        "us": [
+            {
+                "service": {
+                    "id": "hulu",
+                    "name": "Hulu",
+                    "homePage": "https://www.hulu.com/",
+                    "themeColorCode": "#1ce783",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/hulu/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/hulu/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/hulu/logo-white.svg"
+                    }
+                },
+                "type": "addon",
+                "addon": {
+                    "id": "max",
+                    "name": "Max",
+                    "homePage": "https://www.hulu.com/network/hbo-max-1b3523c1-3090-4c27-a1e8-a04d33867c34",
+                    "themeColorCode": "#002be7",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/hulu/us/addons/max/light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/hulu/us/addons/max/dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/hulu/us/addons/max/white.svg"
+                    }
+                },
+                "link": "https://www.hulu.com/movie/the-dark-knight-2ce6365a-46e7-43d9-8d77-5b84753a663c",
+                "videoLink": "https://www.hulu.com/watch/2ce6365a-46e7-43d9-8d77-5b84753a663c",
+                "quality": "hd",
+                "audios": [
+                    {
+                        "language": "eng"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    }
+                ],
+                "expiresSoon": false,
+                "expiresOn": 1733029140,
+                "availableSince": 1709406261
+            },
+            {
+                "service": {
+                    "id": "netflix",
+                    "name": "Netflix",
+                    "homePage": "https://www.netflix.com/",
+                    "themeColorCode": "#E50914",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+                    }
+                },
+                "type": "subscription",
+                "link": "https://www.netflix.com/title/70079583/",
+                "audios": [],
+                "subtitles": [],
+                "expiresSoon": false,
+                "availableSince": 1693809870
+            },
+            {
+                "service": {
+                    "id": "hbo",
+                    "name": "Max",
+                    "homePage": "https://play.max.com/",
+                    "themeColorCode": "#002be7",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/hbo/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/hbo/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/hbo/logo-white.svg"
+                    }
+                },
+                "type": "subscription",
+                "link": "https://play.max.com/movie/52217243-a137-45d6-9c6a-0dfab4633034",
+                "videoLink": "https://play.max.com/video/watch/46c5fcd3-9081-49e1-941f-5f31abd27f98/b6a82b24-bcfe-453d-9b9d-563a5ad02a99",
+                "quality": "uhd",
+                "audios": [
+                    {
+                        "language": "eng"
+                    },
+                    {
+                        "language": "spa"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": true,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "spa"
+                        }
+                    }
+                ],
+                "expiresSoon": false,
+                "expiresOn": 1733029140,
+                "availableSince": 1687879529
+            },
+            {
+                "service": {
+                    "id": "prime",
+                    "name": "Prime Video",
+                    "homePage": "https://www.amazon.com/gp/video/storefront/",
+                    "themeColorCode": "#00A8E1",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/prime/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/prime/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/prime/logo-white.svg"
+                    }
+                },
+                "type": "rent",
+                "link": "https://www.amazon.com/gp/video/detail/B001I189MQ/ref=atv_dp",
+                "quality": "hd",
+                "audios": [
+                    {
+                        "language": "eng"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": true,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    }
+                ],
+                "price": {
+                    "amount": "3.79",
+                    "currency": "USD",
+                    "formatted": "3.79 USD"
+                },
+                "expiresSoon": false,
+                "availableSince": 1690130611
+            },
+            {
+                "service": {
+                    "id": "prime",
+                    "name": "Prime Video",
+                    "homePage": "https://www.amazon.com/gp/video/storefront/",
+                    "themeColorCode": "#00A8E1",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/prime/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/prime/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/prime/logo-white.svg"
+                    }
+                },
+                "type": "buy",
+                "link": "https://www.amazon.com/gp/video/detail/B001I189MQ/ref=atv_dp",
+                "quality": "hd",
+                "audios": [
+                    {
+                        "language": "eng"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": true,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    }
+                ],
+                "price": {
+                    "amount": "7.99",
+                    "currency": "USD",
+                    "formatted": "7.99 USD"
+                },
+                "expiresSoon": false,
+                "availableSince": 1690130611
+            }
+        ],
+        "pt": [
+            {
+                "service": {
+                    "id": "netflix",
+                    "name": "Netflix",
+                    "homePage": "https://www.netflix.com/",
+                    "themeColorCode": "#E50914",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+                    }
+                },
+                "type": "subscription",
+                "link": "https://www.netflix.com/title/70079583/",
+                "videoLink": "https://www.netflix.com/watch/70079583",
+                "quality": "hd",
+                "audios": [
+                    {
+                        "language": "eng"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "por"
+                        }
+                    }
+                ],
+                "expiresSoon": false,
+                "availableSince": 1699152517
+            },
+            {
+                "service": {
+                    "id": "hbo",
+                    "name": "Max",
+                    "homePage": "https://play.max.com/",
+                    "themeColorCode": "#002be7",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/hbo/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/hbo/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/hbo/logo-white.svg"
+                    }
+                },
+                "type": "subscription",
+                "link": "https://play.max.com/movie/52217243-a137-45d6-9c6a-0dfab4633034",
+                "videoLink": "https://play.max.com/video/watch/46c5fcd3-9081-49e1-941f-5f31abd27f98/a9e82cdb-a0ea-4519-8742-aa0e86f185a5",
+                "audios": [
+                    {
+                        "language": "eng"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "por"
+                        }
+                    }
+                ],
+                "expiresSoon": false,
+                "expiresOn": 1741391940,
+                "availableSince": 1716604757
+            }
+        ],
+        "co": [
+            {
+                "service": {
+                    "id": "hbo",
+                    "name": "Max",
+                    "homePage": "https://play.max.com/",
+                    "themeColorCode": "#002be7",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/hbo/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/hbo/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/hbo/logo-white.svg"
+                    }
+                },
+                "type": "subscription",
+                "link": "https://play.max.com/movie/52217243-a137-45d6-9c6a-0dfab4633034",
+                "videoLink": "https://play.max.com/video/watch/46c5fcd3-9081-49e1-941f-5f31abd27f98/b6a82b24-bcfe-453d-9b9d-563a5ad02a99",
+                "quality": "uhd",
+                "audios": [
+                    {
+                        "language": "ces"
+                    },
+                    {
+                        "language": "eng"
+                    },
+                    {
+                        "language": "hun"
+                    },
+                    {
+                        "language": "por"
+                    },
+                    {
+                        "language": "spa"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "bul"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "ces"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "dan"
+                        }
+                    },
+                    {
+                        "closedCaptions": true,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "fin"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "fra"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "hrv"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "hun"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "mkd"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "nld"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "por"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "ron"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "spa"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "srp"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "swe"
+                        }
+                    }
+                ],
+                "expiresSoon": false,
+                "expiresOn": 1735448400,
+                "availableSince": 1716698855
+            }
+        ],
+        "fi": [
+            {
+                "service": {
+                    "id": "netflix",
+                    "name": "Netflix",
+                    "homePage": "https://www.netflix.com/",
+                    "themeColorCode": "#E50914",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+                    }
+                },
+                "type": "subscription",
+                "link": "https://www.netflix.com/title/70079583/",
+                "videoLink": "https://www.netflix.com/watch/70079583",
+                "quality": "hd",
+                "audios": [
+                    {
+                        "language": "eng"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "fin"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "swe"
+                        }
+                    }
+                ],
+                "expiresSoon": false,
+                "availableSince": 1705272552
+            },
+            {
+                "service": {
+                    "id": "hbo",
+                    "name": "Max",
+                    "homePage": "https://play.max.com/",
+                    "themeColorCode": "#002be7",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/hbo/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/hbo/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/hbo/logo-white.svg"
+                    }
+                },
+                "type": "subscription",
+                "link": "https://play.max.com/movie/52217243-a137-45d6-9c6a-0dfab4633034",
+                "videoLink": "https://play.max.com/video/watch/46c5fcd3-9081-49e1-941f-5f31abd27f98/a9e82cdb-a0ea-4519-8742-aa0e86f185a5",
+                "audios": [
+                    {
+                        "language": "eng"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "dan"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "fin"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "swe"
+                        }
+                    }
+                ],
+                "expiresSoon": false,
+                "expiresOn": 1729889940,
+                "availableSince": 1716762252
+            }
+        ],
+        "au": [
+            {
+                "service": {
+                    "id": "stan",
+                    "name": "Stan",
+                    "homePage": "https://www.stan.com.au/",
+                    "themeColorCode": "#0072fb",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/stan/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/stan/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/stan/logo-white.svg"
+                    }
+                },
+                "type": "subscription",
+                "link": "https://www.stan.com.au/watch/the-dark-knight-2008",
+                "videoLink": "https://play.stan.com.au/programs/3037076/play",
+                "quality": "uhd",
+                "audios": [],
+                "subtitles": [
+                    {
+                        "closedCaptions": true,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    }
+                ],
+                "expiresSoon": false,
+                "expiresOn": 1734440340,
+                "availableSince": 1650055578
+            }
+        ],
+        "rs": [
+            {
+                "service": {
+                    "id": "netflix",
+                    "name": "Netflix",
+                    "homePage": "https://www.netflix.com/",
+                    "themeColorCode": "#E50914",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+                    }
+                },
+                "type": "subscription",
+                "link": "https://www.netflix.com/title/70079583/",
+                "videoLink": "https://www.netflix.com/watch/70079583",
+                "quality": "hd",
+                "audios": [
+                    {
+                        "language": "eng"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "hun"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "ron"
+                        }
+                    }
+                ],
+                "expiresSoon": false,
+                "availableSince": 1705255712
+            },
+            {
+                "service": {
+                    "id": "hbo",
+                    "name": "Max",
+                    "homePage": "https://play.max.com/",
+                    "themeColorCode": "#002be7",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/hbo/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/hbo/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/hbo/logo-white.svg"
+                    }
+                },
+                "type": "subscription",
+                "link": "https://play.max.com/movie/52217243-a137-45d6-9c6a-0dfab4633034",
+                "videoLink": "https://play.max.com/video/watch/46c5fcd3-9081-49e1-941f-5f31abd27f98/a9e82cdb-a0ea-4519-8742-aa0e86f185a5",
+                "audios": [
+                    {
+                        "language": "eng"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "hrv"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "mkd"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "srp"
+                        }
+                    }
+                ],
+                "expiresSoon": false,
+                "expiresOn": 1741388340,
+                "availableSince": 1716694198
+            }
+        ],
+        "ro": [
+            {
+                "service": {
+                    "id": "netflix",
+                    "name": "Netflix",
+                    "homePage": "https://www.netflix.com/",
+                    "themeColorCode": "#E50914",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+                    }
+                },
+                "type": "subscription",
+                "link": "https://www.netflix.com/title/70079583/",
+                "videoLink": "https://www.netflix.com/watch/70079583",
+                "quality": "hd",
+                "audios": [
+                    {
+                        "language": "eng"
+                    },
+                    {
+                        "language": "pol"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "hun"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "pol"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "ron"
+                        }
+                    }
+                ],
+                "expiresSoon": false,
+                "availableSince": 1705256738
+            },
+            {
+                "service": {
+                    "id": "hbo",
+                    "name": "Max",
+                    "homePage": "https://play.max.com/",
+                    "themeColorCode": "#002be7",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/hbo/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/hbo/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/hbo/logo-white.svg"
+                    }
+                },
+                "type": "subscription",
+                "link": "https://play.max.com/movie/52217243-a137-45d6-9c6a-0dfab4633034",
+                "videoLink": "https://play.max.com/video/watch/46c5fcd3-9081-49e1-941f-5f31abd27f98/a9e82cdb-a0ea-4519-8742-aa0e86f185a5",
+                "audios": [
+                    {
+                        "language": "eng"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    },
+                    {
+                        "closedCaptions": false,
+                        "locale": {
+                            "language": "ron"
+                        }
+                    }
+                ],
+                "expiresSoon": false,
+                "expiresOn": 1741384740,
+                "availableSince": 1716687837
+            }
+        ],
+        "gb": [
+            {
+                "service": {
+                    "id": "prime",
+                    "name": "Prime Video",
+                    "homePage": "https://www.amazon.co.uk/gp/video/storefront/",
+                    "themeColorCode": "#00A8E1",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/prime/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/prime/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/prime/logo-white.svg"
+                    }
+                },
+                "type": "rent",
+                "link": "https://www.amazon.co.uk/gp/video/detail/B00I9LY2N8/ref=atv_dp",
+                "quality": "hd",
+                "audios": [
+                    {
+                        "language": "eng"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": true,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    }
+                ],
+                "price": {
+                    "amount": "3.49",
+                    "currency": "GBP",
+                    "formatted": "3.49 GBP"
+                },
+                "expiresSoon": false,
+                "availableSince": 1691089669
+            },
+            {
+                "service": {
+                    "id": "prime",
+                    "name": "Prime Video",
+                    "homePage": "https://www.amazon.co.uk/gp/video/storefront/",
+                    "themeColorCode": "#00A8E1",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/prime/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/prime/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/prime/logo-white.svg"
+                    }
+                },
+                "type": "buy",
+                "link": "https://www.amazon.co.uk/gp/video/detail/B00I9LY2N8/ref=atv_dp",
+                "quality": "hd",
+                "audios": [
+                    {
+                        "language": "eng"
+                    }
+                ],
+                "subtitles": [
+                    {
+                        "closedCaptions": true,
+                        "locale": {
+                            "language": "eng"
+                        }
+                    }
+                ],
+                "price": {
+                    "amount": "7.99",
+                    "currency": "GBP",
+                    "formatted": "7.99 GBP"
+                },
+                "expiresSoon": false,
+                "availableSince": 1691089669
+            },
+            {
+                "service": {
+                    "id": "now",
+                    "name": "Now",
+                    "homePage": "https://www.nowtv.com",
+                    "themeColorCode": "#00818a",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/now/logo-light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/now/logo-dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/now/logo-white.svg"
+                    }
+                },
+                "type": "addon",
+                "addon": {
+                    "id": "movies",
+                    "name": "Cinema",
+                    "homePage": "https://www.nowtv.com/gb/watch/movies/highlights",
+                    "themeColorCode": "#ffffff",
+                    "imageSet": {
+                        "lightThemeImage": "https://media.movieofthenight.com/services/now/gb/addons/movies/light-theme.svg",
+                        "darkThemeImage": "https://media.movieofthenight.com/services/now/gb/addons/movies/dark-theme.svg",
+                        "whiteImage": "https://media.movieofthenight.com/services/now/gb/addons/movies/white.svg"
+                    }
+                },
+                "link": "https://www.nowtv.com/watch/the-dark-knight-2008/A5EK6sKrAaydmp1JYfy1h",
+                "audios": [
+                    {
+                        "language": "eng"
+                    }
+                ],
+                "subtitles": [],
+                "expiresSoon": false,
+                "expiresOn": 1735689599,
+                "availableSince": 1659608917
+            }
+        ]
+    }
+}

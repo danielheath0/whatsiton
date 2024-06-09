@@ -1,0 +1,587 @@
+[
+    {
+      itemType: 'show',
+      showType: 'movie',
+      id: '414',
+      imdbId: 'tt1877830',
+      tmdbId: 'movie/414906',
+      title: 'The Batman',
+      overview: 'As a manic killer known as "The Riddler" picks off political figures, Batman joins forces with allies to take him down and stop his reign of terror.',
+      releaseYear: 2022,
+      originalTitle: 'The Batman',
+      genres: [ [Object], [Object] ],
+      directors: [ 'Matt Reeves' ],
+      cast: [
+        'Robert Pattinson',
+        'Zoë Kravitz',
+        'Jeffrey Wright',
+        'Colin Farrell',
+        'Paul Dano',
+        'John Turturro',
+        'Andy Serkis'
+      ],
+      rating: 77,
+      imageSet: {
+        verticalPoster: [Object],
+        horizontalPoster: [Object],
+        verticalBackdrop: [Object],
+        horizontalBackdrop: [Object]
+      },
+      streamingOptions: { il: [Array] }
+    },
+    {
+      itemType: 'show',
+      showType: 'movie',
+      id: '953',
+      imdbId: 'tt0096895',
+      tmdbId: 'movie/268',
+      title: 'Batman',
+      overview: 'Gotham City’s Dark Knight begins his war on crime with his first major enemy in Jack Napier, a criminal who becomes the clownishly homicidal Joker.',
+      releaseYear: 1989,
+      originalTitle: 'Batman',
+      genres: [ [Object], [Object] ],
+      directors: [ 'Tim Burton' ],
+      cast: [
+        'Jack Nicholson',
+        'Michael Keaton',
+        'Kim Basinger',
+        'Michael Gough',
+        'Jerry Hall',
+        'Robert Wuhl',
+        'Pat Hingle'
+      ],
+      rating: 72,
+      imageSet: {
+        verticalPoster: [Object],
+        horizontalPoster: [Object],
+        verticalBackdrop: [Object],
+        horizontalBackdrop: [Object]
+      },
+      streamingOptions: {}
+    },
+    {
+      itemType: 'show',
+      showType: 'movie',
+      id: '10393',
+      imdbId: 'tt0060153',
+      tmdbId: 'movie/2661',
+      title: 'Batman',
+      overview: "Holy original, Batfans! Here's the movie based on the hit TV show. Adam West plays the Caped Crusader, using bat gadgets galore against such evildoers as the Joker, the Penguin, the Riddler and Catwoman.",
+      releaseYear: 1966,
+      originalTitle: 'Batman',
+      genres: [ [Object], [Object], [Object] ],
+      directors: [ 'Leslie H. Martinson' ],
+      cast: [
+        'Adam West',
+        'Burt Ward',
+        'Lee Meriwether',
+        'Cesar Romero',
+        'Burgess Meredith',
+        'Frank Gorshin',
+        'Alan Napier'
+      ],
+      rating: 62,
+      imageSet: {
+        verticalPoster: [Object],
+        horizontalPoster: [Object],
+        horizontalBackdrop: [Object]
+      },
+      streamingOptions: { il: [Array] }
+    },
+    {
+      itemType: 'show',
+      showType: 'movie',
+      id: '55130',
+      imdbId: 'tt0035665',
+      tmdbId: 'movie/125249',
+      title: 'Batman',
+      overview: 'After the Pearl Harbor attack, a pair of costumed secret agents are tasked with foiling a Japanese spy’s plan to mind-control American scientists.',
+      releaseYear: 1943,
+      originalTitle: 'Batman',
+      genres: [ [Object], [Object], [Object] ],
+      directors: [ 'Lambert Hillyer' ],
+      cast: [
+        'Lewis Wilson',
+        'Douglas Croft',
+        'J. Carrol Naish',
+        'Shirley Patterson',
+        'William Austin',
+        'Knox Manning',
+        'Frank Austin'
+      ],
+      rating: 55,
+      imageSet: {
+        verticalPoster: [Object],
+        horizontalPoster: [Object],
+        verticalBackdrop: [Object],
+        horizontalBackdrop: [Object]
+      },
+      streamingOptions: {}
+    },
+    {
+      itemType: 'show',
+      showType: 'movie',
+      id: '88',
+      imdbId: 'tt1345836',
+      tmdbId: 'movie/49026',
+      title: 'The Dark Knight Rises',
+      overview: "Eight years after the Joker's reign of anarchy, Batman (Christian Bale), with the help of the enigmatic Catwoman (Anne Hathaway), is forced from his exile to save Gotham City from the brutal guerrilla terrorist Bane (Tom Hardy).",
+      releaseYear: 2012,
+      originalTitle: 'The Dark Knight Rises',
+      genres: [ [Object], [Object], [Object] ],
+      directors: [ 'Christopher Nolan' ],
+      cast: [
+        'Christian Bale',
+        'Michael Caine',
+        'Gary Oldman',
+        'Anne Hathaway',
+        'Tom Hardy',
+        'Marion Cotillard',
+        'Joseph Gordon-Levitt'
+      ],
+      rating: 81,
+      imageSet: {
+        verticalPoster: [Object],
+        horizontalPoster: [Object],
+        verticalBackdrop: [Object],
+        horizontalBackdrop: [Object]
+      },
+      streamingOptions: {}
+    },
+    {
+      itemType: 'show',
+      showType: 'movie',
+      id: '1281',
+      imdbId: 'tt0103776',
+      tmdbId: 'movie/364',
+      title: 'Batman Returns',
+      overview: 'Gotham City trembles at the mercy of The Penguin’s criminal genius, while the Dark Knight meets his match in Catwoman. But is she a friend, or a foe?',
+      releaseYear: 1992,
+      originalTitle: 'Batman Returns',
+      genres: [ [Object], [Object], [Object] ],
+      directors: [ 'Tim Burton' ],
+      cast: [
+        'Michael Keaton',
+        'Danny DeVito',
+        'Michelle Pfeiffer',
+        'Christopher Walken',
+        'Michael Gough',
+        'Pat Hingle',
+        'Michael Murphy'
+      ],
+      rating: 68,
+      imageSet: {
+        verticalPoster: [Object],
+        horizontalPoster: [Object],
+        verticalBackdrop: [Object],
+        horizontalBackdrop: [Object]
+      },
+      streamingOptions: {}
+    },
+    {
+      itemType: 'show',
+      showType: 'movie',
+      id: '1627',
+      imdbId: 'tt0118688',
+      tmdbId: 'movie/415',
+      title: 'Batman & Robin',
+      overview: "This was the third follow-up to Tim Burton's Batman (1989), the original revisionist look at the Gotham City legend, as well as the second in the Batman series directed by Joel Schumacher and the first featuring George Clooney as the Caped Crusader; it features not one but two super-villains, and a new heroine to fight crime alongside Bruce Wayne (aka Batman) and Dick Grayson (aka Robin) (Chris...",
+      releaseYear: 1997,
+      originalTitle: 'Batman & Robin',
+      genres: [ [Object], [Object] ],
+      directors: [ 'Joel Schumacher' ],
+      cast: [
+        'George Clooney',
+        "Chris O'Donnell",
+        'Uma Thurman',
+        'Arnold Schwarzenegger',
+        'Alicia Silverstone',
+        'Michael Gough',
+        'Pat Hingle'
+      ],
+      rating: 37,
+      imageSet: {
+        verticalPoster: [Object],
+        horizontalPoster: [Object],
+        verticalBackdrop: [Object],
+        horizontalBackdrop: [Object]
+      },
+      streamingOptions: {}
+    },
+    {
+      itemType: 'show',
+      showType: 'movie',
+      id: '1633',
+      imdbId: 'tt0112462',
+      tmdbId: 'movie/414',
+      title: 'Batman Forever',
+      overview: 'An ex-district attorney believes Batman was responsible for the accident that disfigured him.',
+      releaseYear: 1995,
+      originalTitle: 'Batman Forever',
+      genres: [ [Object], [Object] ],
+      directors: [ 'Joel Schumacher' ],
+      cast: [
+        'Val Kilmer',
+        'Tommy Lee Jones',
+        'Jim Carrey',
+        'Nicole Kidman',
+        "Chris O'Donnell",
+        'Michael Gough',
+        'Pat Hingle'
+      ],
+      rating: 52,
+      imageSet: {
+        verticalPoster: [Object],
+        horizontalPoster: [Object],
+        verticalBackdrop: [Object],
+        horizontalBackdrop: [Object]
+      },
+      streamingOptions: {}
+    },
+    {
+      itemType: 'show',
+      showType: 'movie',
+      id: '98',
+      imdbId: 'tt0372784',
+      tmdbId: 'movie/272',
+      title: 'Batman Begins',
+      overview: "After witnessing his parents' death, Bruce learns the art of fighting to confront injustice. When he returns to Gotham as Batman, he must stop a secret society that intends to destroy the city.",
+      releaseYear: 2005,
+      originalTitle: 'Batman Begins',
+      genres: [ [Object], [Object], [Object] ],
+      directors: [ 'Christopher Nolan' ],
+      cast: [
+        'Christian Bale',
+        'Michael Caine',
+        'Liam Neeson',
+        'Katie Holmes',
+        'Gary Oldman',
+        'Morgan Freeman',
+        'Cillian Murphy'
+      ],
+      rating: 79,
+      imageSet: {
+        verticalPoster: [Object],
+        horizontalPoster: [Object],
+        verticalBackdrop: [Object],
+        horizontalBackdrop: [Object]
+      },
+      streamingOptions: { il: [Array] }
+    },
+    {
+      itemType: 'show',
+      showType: 'movie',
+      id: '7138',
+      imdbId: 'tt4853102',
+      tmdbId: 'movie/382322',
+      title: 'Batman: The Killing Joke',
+      overview: 'As Batman hunts for the escaped Joker, the Clown Prince of Crime attacks the Gordon family to prove a diabolical point mirroring his own fall into madness.',
+      releaseYear: 2016,
+      originalTitle: 'Batman: The Killing Joke',
+      genres: [ [Object], [Object], [Object] ],
+      directors: [ 'Sam Liu' ],
+      cast: [
+        'Kevin Conroy',
+        'Mark Hamill',
+        'Tara Strong',
+        'Ray Wise',
+        'John DiMaggio',
+        'Robin Atkin Downes',
+        'Brian George'
+      ],
+      rating: 63,
+      imageSet: {
+        verticalPoster: [Object],
+        horizontalPoster: [Object],
+        verticalBackdrop: [Object],
+        horizontalBackdrop: [Object]
+      },
+      streamingOptions: {}
+    },
+    {
+      itemType: 'show',
+      showType: 'movie',
+      id: '11476',
+      imdbId: 'tt3139072',
+      tmdbId: 'movie/251519',
+      title: 'Son of Batman',
+      overview: "When Batman learns that he has a son, Damian, who is the grandchild of Ra's Al Ghul, he takes the boy under his wing, hoping to change him from the assassin he was being groomed to be.",
+      releaseYear: 2014,
+      originalTitle: 'Son of Batman',
+      genres: [ [Object], [Object], [Object] ],
+      directors: [ 'Ethan Spaulding' ],
+      cast: [
+        "Jason O'Mara",
+        'Stuart Allan',
+        'Thomas Gibson',
+        'Morena Baccarin',
+        'Giancarlo Esposito',
+        'David McCallum',
+        'Xander Berkeley'
+      ],
+      rating: 66,
+      imageSet: {
+        verticalPoster: [Object],
+        horizontalPoster: [Object],
+        verticalBackdrop: [Object],
+        horizontalBackdrop: [Object]
+      },
+      streamingOptions: { il: [Array] }
+    },
+    {
+      itemType: 'show',
+      showType: 'movie',
+      id: '68',
+      imdbId: 'tt0468569',
+      tmdbId: 'movie/155',
+      title: 'The Dark Knight',
+      overview: 'With the help of Lieutenant Jim Gordon and new district attorney Harvey Dent, Batman sets out to destroy organised crime in Gotham City forever; but they soon find themselves prey to a rising criminal mastermind known as The Joker.',
+      releaseYear: 2008,
+      originalTitle: 'The Dark Knight',
+      genres: [ [Object], [Object], [Object] ],
+      directors: [ 'Christopher Nolan' ],
+      cast: [
+        'Christian Bale',
+        'Heath Ledger',
+        'Michael Caine',
+        'Gary Oldman',
+        'Aaron Eckhart',
+        'Maggie Gyllenhaal',
+        'Morgan Freeman'
+      ],
+      rating: 87,
+      imageSet: {
+        verticalPoster: [Object],
+        horizontalPoster: [Object],
+        verticalBackdrop: [Object],
+        horizontalBackdrop: [Object]
+      },
+      streamingOptions: {}
+    },
+    {
+      itemType: 'show',
+      showType: 'movie',
+      id: '6632',
+      imdbId: 'tt1569923',
+      tmdbId: 'movie/40662',
+      title: 'Batman: Under the Red Hood',
+      overview: "There's a mystery afoot in Gotham City, and Batman must go toe-to-toe with an enigmatic vigilante who goes by the name of Red Hood. Subsequently, old wounds reopen and once buried memories come into the light.",
+      releaseYear: 2010,
+      originalTitle: 'Batman: Under the Red Hood',
+      genres: [ [Object], [Object], [Object] ],
+      directors: [ 'Brandon Vietti' ],
+      cast: [
+        'Bruce Greenwood',
+        'Jensen Ackles',
+        'Neil Patrick Harris',
+        'Jason Isaacs',
+        'John DiMaggio',
+        'Wade Williams',
+        'Carlos Alazraqui'
+      ],
+      rating: 78,
+      imageSet: {
+        verticalPoster: [Object],
+        horizontalPoster: [Object],
+        verticalBackdrop: [Object],
+        horizontalBackdrop: [Object]
+      },
+      streamingOptions: {}
+    },
+    {
+      itemType: 'show',
+      showType: 'movie',
+      id: '14120',
+      imdbId: 'tt7451284',
+      tmdbId: 'movie/485942',
+      title: 'Batman Ninja',
+      overview: 'Batman and a cast of villains including The Joker are transported back in time to medieval Japan in this ground-breaking anime feature.',
+      releaseYear: 2018,
+      originalTitle: 'ニンジャバットマン
+  ',
+      genres: [ [Object], [Object], [Object] ],
+      directors: [ 'Junpei Mizusaki' ],
+      cast: [
+        'Koichi Yamadera',
+        'Wataru Takagi',
+        'Rie Kugimiya',
+        'Ai Kakuma',
+        'Hochu Otsuka',
+        'Daisuke Ono',
+        'Akira Ishida'
+      ],
+      rating: 55,
+      imageSet: {
+        verticalPoster: [Object],
+        horizontalPoster: [Object],
+        verticalBackdrop: [Object],
+        horizontalBackdrop: [Object]
+      },
+      streamingOptions: { il: [Array] }
+    },
+    {
+      itemType: 'show',
+      showType: 'movie',
+      id: '14386',
+      imdbId: 'tt8752440',
+      tmdbId: 'movie/537056',
+      title: 'Batman: Hush',
+      overview: "A mysterious new villain known only as Hush uses a gallery of villains to destroy Batman's crime-fighting career as well as Bruce Wayne's personal life, which has been further complicated by a relationship with Selina Kyle/Catwoman.",
+      releaseYear: 2019,
+      originalTitle: 'Batman: Hush',
+      genres: [ [Object], [Object], [Object] ],
+      directors: [ 'Justin Copeland' ],
+      cast: [
+        "Jason O'Mara",
+        'Jennifer Morrison',
+        'Maury Sterling',
+        'Sean Maher',
+        'Geoffrey Arend',
+        'James Garrett',
+        "Jerry O'Connell"
+      ],
+      rating: 68,
+      imageSet: {
+        verticalPoster: [Object],
+        horizontalPoster: [Object],
+        verticalBackdrop: [Object],
+        horizontalBackdrop: [Object]
+      },
+      streamingOptions: {}
+    },
+    {
+      itemType: 'show',
+      showType: 'movie',
+      id: '9954',
+      imdbId: 'tt1672723',
+      tmdbId: 'movie/69735',
+      title: 'Batman: Year One',
+      overview: 'Experience a bold and dynamic vision of the Dark Knight’s first year in action and the start of his enduring friendship with Jim Gordon.',
+      releaseYear: 2011,
+      originalTitle: 'Batman: Year One',
+      genres: [ [Object], [Object], [Object] ],
+      directors: [ 'Lauren Montgomery', 'Sam Liu' ],
+      cast: [
+        'Ben McKenzie',
+        'Bryan Cranston',
+        'Eliza Dushku',
+        'Jon Polito',
+        'Alex Rocco',
+        'Katee Sackhoff',
+        'Sara Ballantine'
+      ],
+      rating: 71,
+      imageSet: {
+        verticalPoster: [Object],
+        horizontalPoster: [Object],
+        horizontalBackdrop: [Object]
+      },
+      streamingOptions: {}
+    },
+    {
+      itemType: 'show',
+      showType: 'movie',
+      id: '53697',
+      imdbId: 'tt3643216',
+      tmdbId: 'movie/269246',
+      title: 'Batman Beyond',
+      overview: '',
+      releaseYear: 2014,
+      originalTitle: 'Batman Beyond',
+      genres: [ [Object], [Object] ],
+      directors: [ 'Darwyn Cooke' ],
+      cast: [ 'Will Friedle', 'Kevin Conroy' ],
+      rating: 56,
+      imageSet: { verticalPoster: [Object], horizontalPoster: [Object] },
+      streamingOptions: {}
+    },
+    {
+      itemType: 'show',
+      showType: 'movie',
+      id: '57784',
+      imdbId: 'tt6067832',
+      tmdbId: 'movie/456348',
+      title: 'Batman & Bill',
+      overview: "For years, Bob Kane has been credited as Batman's creator. As time passed, rumors swirled that the Caped Crusader had another father.  Who was this man? Batman & Bill tells the story of the uncredited creator of Batman, and a crusade to bring him justice.",
+      releaseYear: 2017,
+      originalTitle: 'Batman & Bill',
+      genres: [ [Object], [Object], [Object] ],
+      directors: [ 'Sheena M. Joyce', 'Don Argott' ],
+      cast: [
+        'Michael Uslan',
+        'Roy Thomas',
+        'Marc Tyler Nobleman',
+        'Thomas Andrae',
+        'Benjamin Zaido Cruz',
+        'Athena Finger',
+        'Bill Finger'
+      ],
+      rating: 56,
+      imageSet: {
+        verticalPoster: [Object],
+        horizontalPoster: [Object],
+        verticalBackdrop: [Object],
+        horizontalBackdrop: [Object]
+      },
+      streamingOptions: {}
+    },
+    {
+      itemType: 'show',
+      showType: 'movie',
+      id: '60424',
+      imdbId: 'tt0041162',
+      tmdbId: 'movie/93560',
+      title: 'Batman and Robin',
+      overview: 'Dynamic duo Batman and Robin set out to prevent The Wizard, a black hooded mastermind, from obtaining the diamonds he needs for his nefarious plan.',
+      releaseYear: 1949,
+      originalTitle: 'Batman and Robin',
+      genres: [ [Object], [Object], [Object] ],
+      directors: [ 'Spencer Gordon Bennet' ],
+      cast: [
+        'Robert Lowery',
+        'Johnny Duncan',
+        'Lyle Talbot',
+        'Jane Adams',
+        'Ralph Graves',
+        'Don C. Harvey',
+        'William Fawcett'
+      ],
+      rating: 54,
+      imageSet: {
+        verticalPoster: [Object],
+        horizontalPoster: [Object],
+        horizontalBackdrop: [Object]
+      },
+      streamingOptions: {}
+    },
+    {
+      itemType: 'show',
+      showType: 'movie',
+      id: '7780',
+      imdbId: 'tt0106364',
+      tmdbId: 'movie/14919',
+      title: 'Batman: Mask of the Phantasm',
+      overview: "Inspired by the hit animated TV series, the Batman legend continues in this all-new, original story about Batman's most difficult battle, as well as his confrontation with a mysterious villain -- the Phantasm -- who holds the key to Batman's secret past.",
+      releaseYear: 1993,
+      originalTitle: 'Batman: Mask of the Phantasm',
+      genres: [ [Object], [Object], [Object] ],
+      directors: [ 'Bruce Timm', 'Eric Radomski' ],
+      cast: [
+        'Kevin Conroy',
+        'Dana Delany',
+        'Hart Bochner',
+        'Stacy Keach',
+        'Abe Vigoda',
+        'Dick Miller',
+        'John P. Ryan'
+      ],
+      rating: 75,
+      imageSet: {
+        verticalPoster: [Object],
+        horizontalPoster: [Object],
+        verticalBackdrop: [Object],
+        horizontalBackdrop: [Object]
+      },
+      streamingOptions: {}
+    }
+  ]
