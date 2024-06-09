@@ -24,7 +24,7 @@ export const addToWatchlist = async (req: Request, res: Response) => {
         const userId = decoded.id
         console.log("userId",userId)
 
-        const { showId, showTitle } = req.body as unknown as { showId: string; showTitle: string } 
+        // const { showId, showTitle } = req.body as unknown as { showId: string; showTitle: string } 
 
         const showId = req.params.showid
 

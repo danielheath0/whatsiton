@@ -7,8 +7,8 @@ import { WatchListItemFromDB } from "../../interfaces/interfaces";
 const ViewWatchlist = () => {
   const dispatch = useAppDispatch();
 
-  const state = useSelector((state) => state);
-  console.log(state);
+  // const state = useSelector((state) => state);
+  // console.log(state);
   const watchlist = useSelector(allItems);
   console.log(watchlist);
 
