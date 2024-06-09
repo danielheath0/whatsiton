@@ -7,7 +7,7 @@ const DisplayResults: React.FC<DisplayResultsProps> = ({ countryCode }) => {
   //   const dispatch = useAppDispatch();
 
   const shows = useSelector(allShows);
-  // console.log("DisplayResults shows:", shows);
+  console.log("DisplayResults shows:", shows);
   const showsStatus = useSelector(allStatus);
   const error = useSelector(allError);
 
@@ -27,7 +27,6 @@ const DisplayResults: React.FC<DisplayResultsProps> = ({ countryCode }) => {
             ? show.streamingOptions[countryCode].map((option, index) => (
                 <div key={option.link + index}>
                   Name: {option.service.name} type: {option.type}  price: {option.price?.formatted || "unknown"} link:{" "}
-                  {/* <a href={option.link}>Watch here</a> */}
                 </div>
                 
               ))
