@@ -25,6 +25,7 @@ export const _createNewUser = async ({ fName, lName, email, uName, password, cou
 
 export const _login = async (uName:string) => {
     try {
+        console.log("_login uName:", uName)
         const user = await db("users").select("f_name","l_name","email","user_id", "u_name", "password_hash","country_code").where("u_name", uName).first()
         return user || null
     } catch (error) {

@@ -29,6 +29,7 @@ console.log("country:",country)
   const canSearch =
     [title].every(Boolean) && searchStatus === "idle";
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const onSearchClicked = (e:any) => {
     e.preventDefault()
     console.log(country)
@@ -55,23 +56,6 @@ console.log("country:",country)
           onChange={onTitleChanged}
         />
         
-        {/* <input
-          type="text"
-          id="country"
-          name="country"
-          value={country}
-          onChange={onCountryChanged}
-        /> */}
-        {/* //TODO: replace this with dynamic list retrieved from API. Make default the user option as retrieved from DB. Set default in the state when it's retrieved - probably as soon as the page loads, i.e. in index.ts */}
-        {/* <label htmlFor="outputLanguage">Output Language:</label>
-        <input
-          type="text"
-          id="outputLanguage"
-          name="outputLanguage"
-          value={outputLanguage}
-          onChange={onOutputLanguageChanged}
-          //TODO: make this a list as well.
-        /> */}
 
         <button type="button" onClick={onSearchClicked}>
           Search

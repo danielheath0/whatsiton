@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+batmandata.json
+countries-list.json
+example.json
+

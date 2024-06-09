@@ -7,4 +7,5 @@ const express_1 = __importDefault(require("express"));
 const users_controller_1 = require("../controllers/users.controller");
 const router = express_1.default.Router();
 router.post("/register", users_controller_1.createNewUser);
+router.post("/login", users_controller_1.login);
 exports.default = router;

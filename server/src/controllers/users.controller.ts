@@ -26,7 +26,10 @@ export const createNewUser = async (req: Request<UserRegister>, res: Response) =
 
 export const login = async (req: Request, res: Response) => {
     try {
+        console.log("login: Hi", req.body.user, "Bye")
+
         const { uName, password } = req.body.user
+        console.log("uName in login:", uName)
         const user = await _login(uName)
 
         if (!user) return res.status(404).json({ user: null, status: "failed", error: "User not found" })

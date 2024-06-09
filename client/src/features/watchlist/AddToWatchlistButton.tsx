@@ -1,8 +1,7 @@
-import { useDispatch } from "react-redux"
 import { addToWatchlist } from "./watchlistSlice"
 import { useAppDispatch } from "../../app/store"
 
-const AddToWatchlistButton = ({showId, showTitle}) => {
+const AddToWatchlistButton = ({showId, showTitle}:{showId:string, showTitle:string}) => {
 const dispatch = useAppDispatch()
 
 const handleClick = ()=>{

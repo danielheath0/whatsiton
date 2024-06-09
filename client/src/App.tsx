@@ -3,18 +3,14 @@ import DisplayResults from "./features/shows/DisplayResults";
 import SearchForm from "./features/shows/SearchForm";
 import UserForm from "./features/users/UserForm";
 import LogoutButton from "./features/users/LogoutButton";
-import { useSelector } from "react-redux";
 import { Route, Routes } from "react-router-dom";
 import Show from "./features/shows/Show";
-import { userCountry } from "./features/users/usersSlice";
 
 function App() {
 
   const [countryCode,setCountryCode]=useState("us")
-  const region = useSelector(userCountry)
 
   
-  // const [isUserFormVisible, setIsUserFormVisible] = useState(true)
   const [isLoggedIn,setIsLoggedIn]=useState(false)
 //TODO Handle the visibility of the login and register form
 
@@ -42,19 +38,6 @@ useEffect(()=>{
   }
 },[])
 
-  // return (
-  //   <main className="App">
-     
-  //     {!isLoggedIn && <UserForm onLogin={handleLogin} />}
-  //     {isLoggedIn && <LogoutButton onLogout={handleLogout}/>}
-  //     {isLoggedIn && <SearchForm onCountryChange={handleCountryChange}/>}
-  //     {isLoggedIn && <DisplayResults countryCode={countryCode}/>}
-
-  //     <Routes>
-  //       <Route path="/shows/:id" element={<Show />}/>
-  //     </Routes>
-  //   </main>
-  // )
   return (
     <main className="App">
       {!isLoggedIn && <UserForm onLogin={handleLogin} />}

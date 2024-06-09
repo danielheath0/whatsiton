@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux";
 import { allError, allShows, allStatus } from "./showsSlice";
-import { DisplayResultsProps } from "../../interfaces/interfaces";
+import { DisplayResultsProps, Show } from "../../interfaces/interfaces";
 import { Link } from "react-router-dom";
 
 const DisplayResults: React.FC<DisplayResultsProps> = ({ countryCode }) => {
@@ -16,7 +16,7 @@ const DisplayResults: React.FC<DisplayResultsProps> = ({ countryCode }) => {
   if (showsStatus === "loading") {
     content = <p>Loading...</p>;
   } else if (showsStatus === "succeeded") {
-    content = shows.map((show) => (<Link to={`/shows/${show.id}`} key={show.id}>
+    content = shows.map((show: Show) => (<Link to={`/shows/${show.id}`} key={show.id}>
       <div className="show-individual">
         <img src={show.imageSet.verticalPoster?.w240} alt={show.title} />
         <h3>{show.title}</h3>

@@ -1,4 +1,6 @@
-const MovieComponent = ({ data, region }) => {
+import { Show, StreamingOption } from "../../interfaces/interfaces";
+
+const MovieComponent = ({ data, region}:{data:Show,region:string}) => {
   const {
     title,
     releaseYear,
@@ -10,12 +12,12 @@ const MovieComponent = ({ data, region }) => {
   } = data;
 
   const buyOptions = streamingOptions[region].filter(
-    (option) => option.type === "buy"
+    (option:StreamingOption) => option.type === "buy"
   );
 
   return (
     <div>
-      <img src={verticalPoster.w360} alt={title} />
+      <img src={verticalPoster!.w360} alt={title} />
       <h1>{title}</h1>
       <p>{releaseYear}</p>
       <p>{overview}</p>

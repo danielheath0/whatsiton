@@ -1,7 +1,8 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 
 import axios from "axios"
-import { WatchlistState } from "../../interfaces/interfaces";
+import { WatchlistItem, WatchlistState } from "../../interfaces/interfaces";
 
 const initialState: WatchlistState = {
     items: [],
@@ -51,7 +52,7 @@ export const toggleWatched = createAsyncThunk("watchlist/toggleWatched", async (
             }
         )
         return {showId, watched: response.data.watched}
-    } catch (error) {
+    } catch (error: any) {
         if (error.response && error.response.data.message === "Show not in watchlist") {
             dispatch(removeFromWatchlist(showId))
         }
@@ -86,7 +87,7 @@ const watchlistSlice = createSlice({
             .addCase(addToWatchlist.pending, (state) => { state.status = "loading" })
             .addCase(addToWatchlist.fulfilled, (state, action) => {
                 state.status = "succeeded",
-                    state.items.push(action.payload)
+                    state.items.push(action.payload as unknown as WatchlistItem)
             })
             .addCase(addToWatchlist.rejected, (state, action) => {
                 state.status = "failed"
@@ -112,18 +113,14 @@ const watchlistSlice = createSlice({
                 }
             })
             .addCase(toggleWatched.pending, (state) => { state.status = "loading" })
-            // .addCase(toggleWatched.fulfilled, (state, action) => {
-            //     state.status = "succeeded"
-            //     const item = state.items.find((item: any) => item.show_id === action.payload.show_id)
-            //     if (item) { item.watched = action.payload.watched }
-            // })
+         
             .addCase(toggleWatched.fulfilled, (state, action) => {
-                const { showId, watched } = action.payload;
-                const index = state.items.findIndex((item) => item.show_id === showId);
+                const { showId, watched } = action.payload as { showId: string; watched: any; };
+                const index = state.items.findIndex((item) => item.showId === showId);
                 if (index !== -1) {
-                  state.items[index].watched = watched;
+                    state.items[index].watched = watched;
                 }
-              })
+            })
             .addCase(toggleWatched.rejected, (state, action) => {
                 state.status = "failed"
                 if (action.error.message !== undefined) {

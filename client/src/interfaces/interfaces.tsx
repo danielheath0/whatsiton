@@ -52,7 +52,7 @@ export interface StreamingOption {
 export interface Show {
   itemType: string;
   showType: string;
-  id: number;
+  id: string;
   imdbId: string;
   tmdbId: string;
   title: string;
@@ -118,15 +118,27 @@ export interface UsersState {
 }
 
 export interface RegisterFormProps {
-    onRegister: () => void;
-  }
-  
-export interface LoginFormProps {       
-    onLogin: () => void;
-}  
+  onRegister: () => void;
+}
+
+export interface LoginFormProps {
+  onLogin: () => void;
+}
+
+export type WatchlistItem = {
+  showId: string;
+  showTitle: string;
+  watched: boolean;
+};
 
 export interface WatchlistState {
-  items: Array<{showId: string, showTitle:string}>
+  items: WatchlistItem[];
   status: "idle" | "loading" | "succeeded" | "failed";
   error: null | string;
 }
+
+export type WatchListItemFromDB = {
+  show_id: string;
+  show_name: string;
+  watched: boolean;
+};

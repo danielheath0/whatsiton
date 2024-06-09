@@ -2,6 +2,7 @@ import { useSelector } from "react-redux";
 import { allItems, getWatchlist, removeFromWatchlist, toggleWatched } from "./watchlistSlice";
 import { useAppDispatch } from "../../app/store";
 import { useEffect } from "react";
+import { WatchListItemFromDB } from "../../interfaces/interfaces";
 
 const ViewWatchlist = () => {
   const dispatch = useAppDispatch();
@@ -11,8 +12,9 @@ const ViewWatchlist = () => {
   const watchlist = useSelector(allItems);
   console.log(watchlist);
 
-  const handleRowClick = (showId) => {
-    const show = watchlist.find((item) => item.show_id === showId);
+  const handleRowClick = (showId:string) => {
+    const show = watchlist.find((item:WatchListItemFromDB) => item.show_id === showId);
+    console.log("handleRow", show)
     if (show) {
       dispatch(toggleWatched({ showId, watched: !show.watched })).then(() =>
         dispatch(getWatchlist())

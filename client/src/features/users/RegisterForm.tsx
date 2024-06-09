@@ -3,7 +3,6 @@ import { RootState, useAppDispatch } from "../../app/store";
 import { registerUser } from "./usersSlice";
 import { useSelector } from "react-redux";
 import countries from "../../../countries-list.json";
-import { RegisterFormProps } from "../../interfaces/interfaces";
 
 const RegisterForm = () => {
   const dispatch = useAppDispatch();
@@ -33,7 +32,7 @@ const RegisterForm = () => {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     console.log(user);
-    dispatch(registerUser(user));
+    dispatch(registerUser({user}));
   };
 
   useEffect(() => {

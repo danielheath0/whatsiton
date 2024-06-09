@@ -2,7 +2,8 @@ import { useState } from "react";
 import RegisterForm from "./RegisterForm";
 import LoginForm from "./LoginForm";
 
-const UserForm = ({onLogin}) => {
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const UserForm = ({onLogin}: {onLogin: any}) => {
   const [currentForm, setCurrentForm] = useState<"REGISTER" | "LOGIN">();
 
   return <div>

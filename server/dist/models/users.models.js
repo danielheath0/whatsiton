@@ -9,7 +9,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports._createNewUser = void 0;
+exports._login = exports._createNewUser = void 0;
 const db_1 = require("../config/db");
 const _createNewUser = (_a) => __awaiter(void 0, [_a], void 0, function* ({ fName, lName, email, uName, password, countryCode }) {
     try {
@@ -25,7 +25,22 @@ const _createNewUser = (_a) => __awaiter(void 0, [_a], void 0, function* ({ fNam
     }
     catch (error) {
         console.error("Error registering user:", error);
-        throw new Error("Registration failed. Please try again later.");
+        if (error.code === "23505")
+            throw new Error("User already exists - please log in.");
+        throw error;
     }
 });
 exports._createNewUser = _createNewUser;
+const _login = (uName) => __awaiter(void 0, void 0, void 0, function* () {
+    try {
+        console.log("_login uName:", uName);
+        const user = yield (0, db_1.db)("users").select("f_name", "l_name", "email", "user_id", "u_name", "password_hash", "country_code").where("u_name", uName).first();
+        return user || null;
+    }
+    catch (error) {
+        console.error("Error logging in user:", error);
+        console.error("Full error object:", JSON.stringify(error, null, 2));
+        throw new Error("Login failed");
+    }
+});
+exports._login = _login;

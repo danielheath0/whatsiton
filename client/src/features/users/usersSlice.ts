@@ -1,5 +1,6 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-import { UsersState, User } from "../../interfaces/interfaces";
+import { UsersState, User, UserShort } from "../../interfaces/interfaces";
 import axios from "axios";
 import { RootState } from "../../app/store";
 
@@ -29,10 +30,10 @@ export const registerUser = createAsyncThunk<User, { user: User }>("users/regist
     }
 })
 
-export const loginUser = createAsyncThunk<User, { user: User }>("users/loginUser", async (user, thunkAPI) => {
+export const loginUser = createAsyncThunk<UserShort, { user: UserShort }>("users/loginUser", async (user, thunkAPI) => {
     try {
         console.log("user:",user)
-        const response = await axios.post(import.meta.env.VITE_BASE_URL + "/users/login", { user })
+        const response = await axios.post(import.meta.env.VITE_BASE_URL + "/users/login", user)
         localStorage.setItem("token", response.data.token)
 
         if (response.status === 200) {
@@ -70,20 +71,20 @@ const usersSlice = createSlice({
                 console.log("registerUser.rejected action.payload:", action.payload)
 
                 state.status = "failed"
-                state.error = action.payload
+                state.error = action.payload as string
                 console.log(state);
             })
             .addCase(loginUser.pending, (state) => { state.status = "loading" })
             .addCase(loginUser.fulfilled, (state, action) => {
-                console.log("State before update:", state.user) // Log the state before it is updated
+                console.log("State before update:", state.user) 
                 state.status = "succeeded"
-                state.user = action.payload
+                state.user = { ...state.user, ...action.payload }
                 console.log("State after update:", state.user)
             })
             .addCase(loginUser.rejected, (state, action) => {
                 console.log("loginUser.rejected action.payload:", action.payload)
                 state.status = "failed"
-                state.error = action.payload
+                state.error = action.payload as string
                 console.log(state);
             });
 

@@ -5,28 +5,29 @@ import MovieComponent from "./MovieComponent"
 import { userCountry } from "../users/usersSlice"
 import AddToWatchlistButton from "../watchlist/AddToWatchlistButton"
 import ViewWatchlist from "../watchlist/ViewWatchlist"
+import type { Show } from "../../interfaces/interfaces"
 
 const Show = () => {
 
     const {id} = useParams<{id:string}>()
+    console.log(id)
     const shows = useSelector(allShows)
+    console.log("shows:", shows)
     const region = useSelector(userCountry)
 
-    const show = shows.find(show=>show.id===id)
+    const show = shows.find((show:Show)=>show.id===id)
+    console.log("show",show)
 
     if (!show) {
-        return <div>Could not find show with id {id}</div>
+      return <div>Could not find show with id {id}</div>
     }
 
-
-
-
-
-  return (<>
+    return (
+      <>
         <MovieComponent data={show} region={region}/>
         <AddToWatchlistButton showId={show.id} showTitle={show.title}/>
         <ViewWatchlist/>
-    </>
-  )
+      </>
+    )
 }
 export default Show

@@ -1,7 +1,7 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-import { FetchShowsParams, RootState, ShowArray, ShowsState } from "../../interfaces/interfaces";
+import { FetchShowsParams, ShowArray, ShowsState } from "../../interfaces/interfaces";
 import axiosInstance from "../../helpers/axiosInstance"
-import axios from "axios";
+import { RootState } from "../../app/store";
 
 
 const initialState: ShowsState = {

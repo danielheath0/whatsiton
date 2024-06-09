@@ -1,10 +1,8 @@
-import { useSelector } from "react-redux";
-import { RootState, useAppDispatch } from "../../app/store";
+import {  useAppDispatch } from "../../app/store";
 import { useState } from "react";
 import { loginUser } from "./usersSlice";
-import { LoginFormProps } from "../../interfaces/interfaces";
 
-const LoginForm = ({ onLogin }) => {
+const LoginForm = ({ onLogin }: { onLogin: () => void }) => {
   const dispatch = useAppDispatch();
 
   const [user, setUser] = useState({
@@ -25,7 +23,7 @@ const LoginForm = ({ onLogin }) => {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    const actionResult = await dispatch(loginUser(user));
+    const actionResult = await dispatch(loginUser({user}));
     if (loginUser.fulfilled.match(actionResult)) {
       const isLoginSuccess = actionResult.payload;
       if (isLoginSuccess) {
@@ -33,7 +31,7 @@ const LoginForm = ({ onLogin }) => {
       }
     } else {
       if (actionResult.payload) {
-        setErrorMessage(actionResult.payload);
+        setErrorMessage(actionResult.payload as string);
       } else {
         setErrorMessage("An error occurred");
       }
