@@ -32,7 +32,7 @@ export const registerUser = createAsyncThunk<User, { user: User }>("users/regist
 
 export const loginUser = createAsyncThunk<any,any>("users/loginUser", async (user, thunkAPI) => {
     try {
-      // console.log("user:", user);
+      console.log("user:", user);
       const response = await axios.post(import.meta.env.VITE_BASE_URL + "/users/login", {user});
       localStorage.setItem("token", response.data.token);
   
@@ -62,29 +62,29 @@ const usersSlice = createSlice({
             .addCase(registerUser.pending, (state) => { state.status = "loading" })
 
             .addCase(registerUser.fulfilled, (state, action) => {
-                // console.log("registerUser.fulfilled action.payload:", action.payload)
+                console.log("registerUser.fulfilled action.payload:", action.payload)
                 state.status = "succeeded"
                 state.user = action.payload
             })
             .addCase(registerUser.rejected, (state, action) => {
-                // console.log("registerUser.rejected action.payload:", action.payload)
+                console.log("registerUser.rejected action.payload:", action.payload)
 
                 state.status = "failed"
                 state.error = action.payload as string
-                // console.log(state);
+                console.log(state);
             })
             .addCase(loginUser.pending, (state) => { state.status = "loading" })
             .addCase(loginUser.fulfilled, (state, action) => {
-                // console.log("State before update:", state.user)
+                console.log("State before update:", state.user)
                 state.status = "succeeded"
                 state.user = { ...state.user, ...action.payload.user }
-                // console.log("State after update:", state.user)
+                console.log("State after update:", state.user)
             })
             .addCase(loginUser.rejected, (state, action) => {
-                // console.log("loginUser.rejected action.payload:", action.payload)
+                console.log("loginUser.rejected action.payload:", action.payload)
                 state.status = "failed"
                 state.error = action.payload as string
-                // console.log(state);
+                console.log(state);
             });
 
     }

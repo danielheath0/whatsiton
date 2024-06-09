@@ -52,14 +52,14 @@ export const _removeFromWatchlist = async ({userId, showId}:{userId:number, show
 
 export const _toggleWatched = async ({userId, showId, watched}:{userId:number, showId:string, watched:boolean}) => {
     try {
-        // console.log(`userId: ${userId}, showId: ${showId}, watched: ${watched}`);
+        console.log(`userId: ${userId}, showId: ${showId}, watched: ${watched}`);
 
         const show = await db("watchlist")
         .where("user_id", userId)
         .andWhere("show_id", showId)
         .first()
 
-        // console.log(`Retrieved show: ${JSON.stringify(show)}`);
+        console.log(`Retrieved show: ${JSON.stringify(show)}`);
 
         if (!show) { throw new Error("Show not in watchlist") }
 
@@ -68,7 +68,7 @@ export const _toggleWatched = async ({userId, showId, watched}:{userId:number, s
         .andWhere("show_id", showId)
         .update({ watched: watched });
 
-        // console.log(`Updated show: ${JSON.stringify(updated)}`);
+        console.log(`Updated show: ${JSON.stringify(updated)}`);
 
         return updated;
     } catch (error) {

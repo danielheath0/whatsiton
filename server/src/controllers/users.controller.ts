@@ -11,6 +11,7 @@ const { ACCESS_TOKEN_SECRET, REFRESH_TOKEN_SECRET } = process.env
 export const createNewUser = async (req: Request<UserRegister>, res: Response) => {
     try {
         const { fName, lName, email, uName, password, countryCode }: UserRegister = req.body.user
+        console.log(fName, lName, email, uName, password, countryCode)
         const lowerEmail = email.toLowerCase()
         const salt = bcrypt.genSaltSync(10)
         const hashedPassword = bcrypt.hashSync(password, salt)
@@ -26,10 +27,10 @@ export const createNewUser = async (req: Request<UserRegister>, res: Response) =
 
 export const login = async (req: Request, res: Response) => {
     try {
-        // console.log("login: Hi", req.body.user, "Bye")
+        console.log("login: Hi", req.body.user, "Bye")
 
         const { uName, password } = req.body
-        // console.log("uName in login:", uName)
+        console.log("uName in login:", uName)
         const user = await _login(uName)
 
         if (!user) return res.status(404).json({ user: null, status: "failed", error: "User not found" })

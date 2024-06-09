@@ -2,9 +2,9 @@
 // import axios from "axios"
 // import dotenv from "dotenv"
 // dotenv.config()
-// const { API_KEY, API_HOST } = process.env
+const { API_KEY, API_HOST } = process.env
 
-// const router = express.Router()
+const router = express.Router()
 
 
 
