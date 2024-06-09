@@ -9,7 +9,7 @@ const SearchForm: React.FC<SearchFormProps> = () => {
   const dispatch = useAppDispatch();
 
 
-  const state = useSelector((state) => state);
+  // const state = useSelector((state) => state);
   // console.log(state)
 const country = useSelector(userCountry)
 // console.log("country:",country)
