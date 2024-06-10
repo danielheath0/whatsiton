@@ -3,7 +3,7 @@ import { allError, allShows, allStatus } from "./showsSlice";
 import { DisplayResultsProps, Show } from "../../interfaces/interfaces";
 import { Link } from "react-router-dom";
 
-const DisplayResults: React.FC<DisplayResultsProps> = ({ countryCode }) => {
+const DisplayResults: React.FC<DisplayResultsProps> = () => {
   //   const dispatch = useAppDispatch();
 
   const shows = useSelector(allShows);
@@ -21,7 +21,7 @@ const DisplayResults: React.FC<DisplayResultsProps> = ({ countryCode }) => {
         <img src={show.imageSet.verticalPoster?.w240} alt={show.title} />
         <h3>{show.title}</h3>
         <p>{show.releaseYear}</p>
-        <div>
+        {/* <div>
           <h4>Streaming options:</h4>
           {show.streamingOptions && show.streamingOptions[countryCode]
             ? show.streamingOptions[countryCode].map((option, index) => (
@@ -31,7 +31,7 @@ const DisplayResults: React.FC<DisplayResultsProps> = ({ countryCode }) => {
                 
               ))
             : null}
-        </div>
+        </div> */}
       </div>
       </Link>
     ));

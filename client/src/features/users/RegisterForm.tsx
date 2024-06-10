@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { RootState, useAppDispatch } from "../../app/store";
+// import { useNavigate } from "react-router-dom";
 import { registerUser } from "./usersSlice";
 import { useSelector } from "react-redux";
 import countries from "../../../countries-list.json";
@@ -11,6 +12,8 @@ const RegisterForm = () => {
 
   const status = useSelector((state: RootState) => state.users.status);
 
+  // const navigate = useNavigate();
+
   const [user, setUser] = useState({
     fName: "",
     lName: "",
@@ -20,6 +23,19 @@ const RegisterForm = () => {
     countryCode: "",
   });
 
+  // useEffect(() => {
+  //   if (status === "succeeded") {
+  //     setUser({
+  //       fName: "",
+  //       lName: "",
+  //       email: "",
+  //       uName: "",
+  //       password: "",
+  //       countryCode: "",
+  //     });
+  //     navigate("/login"); // navigate to login page
+  //   }
+  // }, [status, navigate]);
   const handleChange = (
     e: React.FormEvent<HTMLInputElement | HTMLSelectElement>
   ) => {
@@ -32,7 +48,7 @@ const RegisterForm = () => {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     console.log(user);
-    dispatch(registerUser({user}));
+    dispatch(registerUser(user));
   };
 
   useEffect(() => {

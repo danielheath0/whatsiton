@@ -4,7 +4,6 @@ import { allShows } from "./showsSlice"
 import MovieComponent from "./MovieComponent"
 import { userCountry } from "../users/usersSlice"
 import AddToWatchlistButton from "../watchlist/AddToWatchlistButton"
-import ViewWatchlist from "../watchlist/ViewWatchlist"
 import type { Show } from "../../interfaces/interfaces"
 
 const Show = () => {
@@ -26,7 +25,7 @@ const Show = () => {
       <>
         <MovieComponent data={show} region={region}/>
         <AddToWatchlistButton showId={show.id} showTitle={show.title}/>
-        <ViewWatchlist/>
+        
       </>
     )
 }
