@@ -27,10 +27,12 @@ export const createNewUser = async (req: Request<UserRegister>, res: Response) =
 
 export const login = async (req: Request, res: Response) => {
     try {
-        console.log("login: Hi", req.body.user, "Bye")
+        console.log("login: Hi", req.body, "Bye")
 
         const { uName, password } = req.body
+        console.log("Received in server login:", uName, password);
         console.log("uName in login:", uName)
+        console.log("password in login:", password)
         const user = await _login(uName)
 
         if (!user) return res.status(404).json({ user: null, status: "failed", error: "User not found" })
@@ -49,13 +51,14 @@ export const login = async (req: Request, res: Response) => {
             httpOnly: true,
             maxAge: 15 * 60 * 1000
         })
-
+        console.log("Sending from server login:", { user, token: accessToken });
         res.status(200).json({
             user: {
                 fName: user.f_name,
                 lName: user.l_name,
                 email: user.email,
                 uName: user.u_name,
+                password: user.password_hash,
                 countryCode: user.country_code
             },
             status: "succeeded",
@@ -63,6 +66,7 @@ export const login = async (req: Request, res: Response) => {
             token: accessToken
         })
     } catch (error) {
+        console.log("Server login error:", error);
         console.error("Error logging in user:", error)
         res.status(404).json({ user:null,
             status: "failed",

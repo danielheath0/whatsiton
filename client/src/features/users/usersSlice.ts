@@ -17,9 +17,10 @@ const initialState: UsersState = {
     error: null
 }
 
-export const registerUser = createAsyncThunk<User,  User>("users/register", async (user, thunkAPI) => {
+export const registerUser = createAsyncThunk<User, User>("users/register", async (user, thunkAPI) => {
     try {
         const response = await axios.post(import.meta.env.VITE_BASE_URL + "/users/register", { user })
+        console.log("Response from registerUser:", response.data)
         return response.data
     } catch (error: any) {
         if (error.response && error.response.data && error.response.data.message) {
@@ -31,9 +32,12 @@ export const registerUser = createAsyncThunk<User,  User>("users/register", asyn
 })
 
 export const loginUser = createAsyncThunk<any,any>("users/loginUser", async (user, thunkAPI) => {
+    console.log("loginUser thunk, user:", user);
     try {
       console.log("user:", user);
-      const response = await axios.post(import.meta.env.VITE_BASE_URL + "/users/login", {user});
+      console.log("Making login request to:", import.meta.env.VITE_BASE_URL + "/users/login", "with user:", user);
+    //   const response = await axios.post(import.meta.env.VITE_BASE_URL + "/users/login", {user});
+      const response = await axios.post(import.meta.env.VITE_BASE_URL + "/users/login", user);
       localStorage.setItem("token", response.data.token);
   
       if (response.status === 200) {
@@ -42,6 +46,7 @@ export const loginUser = createAsyncThunk<any,any>("users/loginUser", async (use
         return thunkAPI.rejectWithValue(response.data.message);
       }
     } catch (error: any) {
+        console.log("Error in loginUser thunk:", error);
       if (error.response && error.response.data && error.response.data.message) {
         return thunkAPI.rejectWithValue(error.response.data.message);
       }
@@ -65,6 +70,7 @@ const usersSlice = createSlice({
                 console.log("registerUser.fulfilled action.payload:", action.payload)
                 state.status = "succeeded"
                 state.user = action.payload
+                console.log("State after update:", state.user)
             })
             .addCase(registerUser.rejected, (state, action) => {
                 console.log("registerUser.rejected action.payload:", action.payload)

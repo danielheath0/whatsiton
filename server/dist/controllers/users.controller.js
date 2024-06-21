@@ -22,6 +22,7 @@ const { ACCESS_TOKEN_SECRET, REFRESH_TOKEN_SECRET } = process.env;
 const createNewUser = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
         const { fName, lName, email, uName, password, countryCode } = req.body.user;
+        console.log(fName, lName, email, uName, password, countryCode);
         const lowerEmail = email.toLowerCase();
         const salt = bcrypt_1.default.genSaltSync(10);
         const hashedPassword = bcrypt_1.default.hashSync(password, salt);
@@ -35,9 +36,11 @@ const createNewUser = (req, res) => __awaiter(void 0, void 0, void 0, function* 
 exports.createNewUser = createNewUser;
 const login = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
-        console.log("login: Hi", req.body.user, "Bye");
-        const { uName, password } = req.body.user;
+        console.log("login: Hi", req.body, "Bye");
+        const { uName, password } = req.body;
+        console.log("Received in server login:", uName, password);
         console.log("uName in login:", uName);
+        console.log("password in login:", password);
         const user = yield (0, users_models_1._login)(uName);
         if (!user)
             return res.status(404).json({ user: null, status: "failed", error: "User not found" });
@@ -53,12 +56,14 @@ const login = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
             httpOnly: true,
             maxAge: 15 * 60 * 1000
         });
+        console.log("Sending from server login:", { user, token: accessToken });
         res.status(200).json({
             user: {
                 fName: user.f_name,
                 lName: user.l_name,
                 email: user.email,
                 uName: user.u_name,
+                password: user.password_hash,
                 countryCode: user.country_code
             },
             status: "succeeded",
@@ -67,6 +72,7 @@ const login = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
         });
     }
     catch (error) {
+        console.log("Server login error:", error);
         console.error("Error logging in user:", error);
         res.status(404).json({ user: null,
             status: "failed",
