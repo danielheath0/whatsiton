@@ -3,7 +3,7 @@ import { useState } from "react";
 import { useAppDispatch } from "../../app/store";
 import { SearchFormProps } from "../../interfaces/interfaces";
 import { useSelector } from "react-redux";
-import { userCountry,  } from "../users/usersSlice";
+import { userCountry } from "../users/usersSlice";
 const SearchForm: React.FC<SearchFormProps> = () => {
   const dispatch = useAppDispatch();
 
