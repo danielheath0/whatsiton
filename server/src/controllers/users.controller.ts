@@ -39,6 +39,7 @@ export const login = async (req: Request, res: Response) => {
 
         const passwordMatch = bcrypt.compareSync(password + "", user.password_hash)
 
+        
         if (!passwordMatch) return res.status(401).json({
             user: null,
             status: "failed",
