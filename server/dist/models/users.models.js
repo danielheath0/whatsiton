@@ -9,7 +9,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports._login = exports._createNewUser = void 0;
+exports._doSomething = exports._login = exports._createNewUser = void 0;
 const db_1 = require("../config/db");
 const _createNewUser = (_a) => __awaiter(void 0, [_a], void 0, function* ({ fName, lName, email, uName, password, countryCode }) {
     try {
@@ -44,3 +44,8 @@ const _login = (uName) => __awaiter(void 0, void 0, void 0, function* () {
     }
 });
 exports._login = _login;
+const _doSomething = () => __awaiter(void 0, void 0, void 0, function* () {
+    console.log("Doing something");
+    return "Something done";
+});
+exports._doSomething = _doSomething;
