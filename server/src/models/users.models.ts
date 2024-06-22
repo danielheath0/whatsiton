@@ -35,3 +35,8 @@ export const _login = async (uName:string) => {
         
     }
 }
+
+export const _doSomething = async () => {
+    console.log("Doing something")
+    return "Something done"
+}
