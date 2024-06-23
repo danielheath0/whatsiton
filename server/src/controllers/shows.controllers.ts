@@ -9,20 +9,20 @@ export const addToWatchlist = async (req: Request, res: Response) => {
     try {
         const headers = req.headers as unknown as Record<string, string>
 
-        console.log('About to extract token');
+        // console.log('About to extract token');
 
         const token = headers.authorization?.split(" ")[1]
-        console.log('Token extracted:', token);
+        // console.log('Token extracted:', token);
 
-        console.log('About to verify token');
+        // console.log('About to verify token');
 
         const decoded = jwt.verify(token as string, process.env.ACCESS_TOKEN_SECRET as string) as { id: number, uName: string }
 
-        console.log('Token verified:', decoded);
+        // console.log('Token verified:', decoded);
 
 
         const userId = decoded.id
-        console.log("userId",userId)
+        // console.log("userId",userId)
 
         // const { showId, showTitle } = req.body as unknown as { showId: string; showTitle: string } 
 
@@ -30,8 +30,8 @@ export const addToWatchlist = async (req: Request, res: Response) => {
 
         const {showTitle}=req.body as unknown as {showTitle:string}
 
-        console.log("showId",showId)
-        console.log("showTitle",showTitle)
+        // console.log("showId",showId)
+        // console.log("showTitle",showTitle)
 
         const newItem = await _addToWatchlist({userId, showId, showTitle})
         res.status(200).json(newItem)

@@ -9,13 +9,13 @@ import type { Show } from "../../interfaces/interfaces"
 const Show = () => {
 
     const {id} = useParams<{id:string}>()
-    console.log(id)
+    // console.log(id)
     const shows = useSelector(allShows)
-    console.log("shows:", shows)
+    // console.log("shows:", shows)
     const region = useSelector(userCountry)
 
     const show = shows.find((show:Show)=>show.id===id)
-    console.log("show",show)
+    // console.log("show",show)
 
     if (!show) {
       return <div>Could not find show with id {id}</div>

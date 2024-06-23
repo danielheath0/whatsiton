@@ -31,7 +31,7 @@ export const addToWatchlist = createAsyncThunk<void, { showId: string, showTitle
 export const getWatchlist = createAsyncThunk("watchlist/getWatchlist", async () => {
     try {
         const token = localStorage.getItem("token")
-        console.log("token", token)
+        // console.log("token", token)
         if (!token) {
             throw new Error('Token not found in localStorage');
         }
@@ -42,7 +42,7 @@ export const getWatchlist = createAsyncThunk("watchlist/getWatchlist", async () 
                 }
             }
         )
-        console.log("getWatchlist response:", response.data)
+        // console.log("getWatchlist response:", response.data)
 
         return response.data
     } catch (error) {

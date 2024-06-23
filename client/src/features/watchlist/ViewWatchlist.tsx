@@ -10,11 +10,11 @@ const ViewWatchlist = () => {
   // const state = useSelector((state) => state);
   // console.log(state);
   const watchlist = useSelector(allItems);
-  console.log(watchlist);
+  // console.log(watchlist);
 
   const handleRowClick = (showId:string) => {
     const show = watchlist.find((item:WatchListItemFromDB) => item.show_id === showId);
-    console.log("handleRow", show)
+    // console.log("handleRow", show)
     if (show) {
       dispatch(toggleWatched({ showId, watched: !show.watched })).then(() =>
         dispatch(getWatchlist())

@@ -11,7 +11,7 @@ const initialState: ShowsState = {
 }
 
 export const fetchShows = createAsyncThunk<ShowArray, FetchShowsParams>("shows/fetchShows", async ({country, title}) => {
-    console.log("country, title" ,country,title)
+    // console.log("country, title" ,country,title)
     const response = await axiosInstance.get("/shows/search/title", {
         params: {
             country,
@@ -21,7 +21,7 @@ export const fetchShows = createAsyncThunk<ShowArray, FetchShowsParams>("shows/f
             output_language:  "en"
         }
     })
-    console.log("fetchShows response:", response.data)
+    // console.log("fetchShows response:", response.data)
     return response.data
 })
 
@@ -37,7 +37,7 @@ const showsSlice = createSlice({
         builder
             .addCase(fetchShows.pending, (state) => { state.status = "loading" })
             .addCase(fetchShows.fulfilled, (state, action) => {
-                console.log("fetchShows.fulfilled action.payload:", action.payload)
+                // console.log("fetchShows.fulfilled action.payload:", action.payload)
                 state.status = "succeeded"
                 state.shows = action.payload
             })

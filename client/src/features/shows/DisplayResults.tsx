@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const DisplayResults: React.FC<DisplayResultsProps> = () => {
   const shows = useSelector(allShows);
-  console.log("DisplayResults shows:", shows);
+  // console.log("DisplayResults shows:", shows);
   const showsStatus = useSelector(allStatus);
   const error = useSelector(allError);
 

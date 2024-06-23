@@ -11,7 +11,7 @@ const { ACCESS_TOKEN_SECRET, REFRESH_TOKEN_SECRET } = process.env
 export const createNewUser = async (req: Request<UserRegister>, res: Response) => {
     try {
         const { fName, lName, email, uName, password, countryCode }: UserRegister = req.body.user
-        console.log(fName, lName, email, uName, password, countryCode)
+        // console.log(fName, lName, email, uName, password, countryCode)
         const lowerEmail = email.toLowerCase()
         const salt = bcrypt.genSaltSync(10)
         const hashedPassword = bcrypt.hashSync(password, salt)
@@ -27,12 +27,12 @@ export const createNewUser = async (req: Request<UserRegister>, res: Response) =
 
 export const login = async (req: Request, res: Response) => {
     try {
-        console.log("login: Hi", req.body, "Bye")
+        // console.log("login: Hi", req.body, "Bye")
 
         const { uName, password } = req.body
-        console.log("Received in server login:", uName, password);
-        console.log("uName in login:", uName)
-        console.log("password in login:", password)
+        // console.log("Received in server login:", uName, password);
+        // console.log("uName in login:", uName)
+        // console.log("password in login:", password)
         const user = await _login(uName)
 
         if (!user) return res.status(404).json({ user: null, status: "failed", error: "User not found" })
@@ -52,7 +52,7 @@ export const login = async (req: Request, res: Response) => {
             httpOnly: true,
             maxAge: 15 * 60 * 1000
         })
-        console.log("Sending from server login:", { user, token: accessToken });
+        // console.log("Sending from server login:", { user, token: accessToken });
         res.status(200).json({
             user: {
                 fName: user.f_name,
@@ -67,7 +67,7 @@ export const login = async (req: Request, res: Response) => {
             token: accessToken
         })
     } catch (error) {
-        console.log("Server login error:", error);
+        // console.log("Server login error:", error);
         console.error("Error logging in user:", error)
         res.status(404).json({ user:null,
             status: "failed",

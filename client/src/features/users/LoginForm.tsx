@@ -22,17 +22,17 @@ const LoginForm = ({ onLogin }: { onLogin: (token:string) => void }) => {
       ...user,
       [e.currentTarget.name]: e.currentTarget.value,
     });
-    console.log("handleChange user:", user)
+    // console.log("handleChange user:", user)
   };
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    console.log("handleSubmit user:", user)
+    // console.log("handleSubmit user:", user)
     const actionResult = await dispatch(loginUser(user));
     if (loginUser.fulfilled.match(actionResult)) {
       const payload = actionResult.payload as unknown as { user: UserShort, token: string };
       if (payload.user) {
-        console.log("Login successful, payload:", payload);
+        // console.log("Login successful, payload:", payload);
         onLogin(payload.token);
       }
     } else {
@@ -41,7 +41,7 @@ const LoginForm = ({ onLogin }: { onLogin: (token:string) => void }) => {
       } else {
         setErrorMessage("An error occurred");
       }
-      console.log("Login error:", errorMessage)
+      // console.log("Login error:", errorMessage)
     }
   };
 
