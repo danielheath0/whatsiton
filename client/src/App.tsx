@@ -37,9 +37,8 @@ function App() {
 
   return (
     <main className="App">
-      <Navbar />
-      {!isLoggedIn && <UserForm onLogin={handleLogin} />}
-      {isLoggedIn && <LogoutButton onLogout={handleLogout} />}
+      <Navbar isLoggedIn={isLoggedIn} onLogin={handleLogin} onLogout={handleLogout}/>
+      
 
       <Routes key={isLoggedIn ? "loggedIn" : "loggedOut"}>
         <Route

@@ -1,17 +1,28 @@
 import { Link } from "react-router-dom";
+import UserForm from "../users/UserForm";
+import LogoutButton from "../users/LogoutButton";
 
-const Navbar = () => {
+type NavbarProps = {
+  isLoggedIn: boolean;
+  onLogin: (token: string) => void;
+  onLogout: () => void;
+};  
+
+
+const Navbar: React.FC<NavbarProps> = ({isLoggedIn, onLogin, onLogout}) => {
   return (
     <nav>
       <h1>What's it on?</h1>
-      <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
+      <div className="nav-buttons-container">
+        <button className="nav-button">
+          <Link to="/">Search</Link>
+        </button>
+        <button className="nav-button">
           <Link to="/watchlist">Watchlist</Link>
-        </li>
-      </ul>
+        </button>
+        {!isLoggedIn && <UserForm onLogin={onLogin} />}
+      {isLoggedIn && <LogoutButton onLogout={onLogout} />}
+      </div>
     </nav>
   );
 };

@@ -1,5 +1,5 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Lexend", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -34,6 +34,11 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  
+}
+
+nav>h1 {
+  font-family: "Monoton";
 }
 
 button {
@@ -71,4 +76,121 @@ button:focus-visible {
 
 input {
   background-color: #463465;
+}
+
+.nav-button {
+  background-color: #ff7edb;
+  color: #34294f;
+}
+
+.nav-button a {
+  color: #34294f;
+}
+
+.results-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; 
+  padding: 20px; 
+}
+
+.show-link {
+  text-decoration: none;
+  color: inherit; 
+}
+
+.show-individual {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  width: 260px; 
+  height:auto;
+  background-color: #72f1b8;
+  color: #34294f;
+  border: 1px solid #fff5f6;
+  margin: 10px;
+  padding:10px;
+  box-sizing: border-box;
+  transition: transform 0.3s ease
+}
+
+.show-individual:hover {
+  transform: scale(1.05)
+}
+
+.show-individual img {
+  max-width: 240px;
+  max-height:320px;
+  object-fit:contain;
+  margin: auto
+}
+
+.movieComponent-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #72f1b8;
+}
+
+.movieComponent-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 20px;
+  border-radius: 4px;
+}
+
+.movieComponent-title {
+  margin: 0 0 10px;
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.movieComponent-overview, .movieComponent-details {
+  color: #34294f;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.movieComponent-details strong {
+  font-weight: bold;
+}
+
+.movieComponent-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #614085;
+  color: #ffffff;
+  text-decoration: bold;
+  border-radius: 4px;
+}
+
+.movieComponent-service-stream {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #ff7edb;
+  border-radius: 4px;
+}
+.movieComponent-service-buy {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #f97e72;
+  border-radius: 4px;
+}
+
+.movieComponent-service-name {
+  margin: 0;
+  color: #34294f;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.movieComponent-price {
+  margin: 0;
+  color: #34294f;
+  font-size: 16px;
 }
