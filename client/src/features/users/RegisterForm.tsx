@@ -67,75 +67,87 @@ const RegisterForm = () => {
   return (
     <>
       <form onSubmit={handleSubmit}>
-        <label htmlFor="fName">
-          First Name:
-          <input
-            type="text"
-            id="fName-register"
-            name="fName"
-            autoComplete="given-name"
-            value={user.fName}
-            onChange={handleChange}
-          />
-        </label>
-        <label htmlFor="lName">
-          Last Name:
-          <input
-            type="text"
-            id="lName-register"
-            name="lName"
-            autoComplete="family-name"
-            value={user.lName}
-            onChange={handleChange}
-          />
-        </label>
-        <label htmlFor="email">
-          Email:
-          <input
-            type="email"
-            id="email-register"
-            name="email"
-            autoComplete="email"
-            value={user.email}
-            onChange={handleChange}
-          />
-        </label>
-        <label htmlFor="uName">
-          Username:
-          <input
-            type="text"
-            id="uName-register"
-            name="uName"
-            autoComplete="username"
-            value={user.uName}
-            onChange={handleChange}
-          />
-        </label>
-        <label htmlFor="password">
-          Password:
-          <input
-            type="password"
-            id="password-register"
-            name="password"
-            autoComplete="current-password"
-            value={user.password}
-            onChange={handleChange}
-          />
-        </label>
-        <label htmlFor="countryCode">
-          Country:
-          <select
-            name="countryCode"
-            value={user.countryCode}
-            onChange={handleChange}>
-            <option>Please select:</option>
-            {countries.map((country) => (
-              <option key={country.country_code} value={country.country_code}>
-                {country.name}
-              </option>
-            ))}
-          </select>
-        </label>
+        <div>
+          <label htmlFor="fName">
+            First Name: 
+            <input
+              type="text"
+              id="fName-register"
+              name="fName"
+              autoComplete="given-name"
+              value={user.fName}
+              onChange={handleChange}
+            />
+          </label>
+        </div>
+        <div>
+          <label htmlFor="lName">
+            Last Name: 
+            <input
+              type="text"
+              id="lName-register"
+              name="lName"
+              autoComplete="family-name"
+              value={user.lName}
+              onChange={handleChange}
+            />
+          </label>
+        </div>
+        <div>
+          <label htmlFor="email">
+            Email:
+            <input
+              type="email"
+              id="email-register"
+              name="email"
+              autoComplete="email"
+              value={user.email}
+              onChange={handleChange}
+            />
+          </label>
+        </div>
+        <div>
+          <label htmlFor="uName">
+            Username:
+            <input
+              type="text"
+              id="uName-register"
+              name="uName"
+              autoComplete="username"
+              value={user.uName}
+              onChange={handleChange}
+            />
+          </label>
+        </div>
+        <div>
+          <label htmlFor="password">
+            Password:
+            <input
+              type="password"
+              id="password-register"
+              name="password"
+              autoComplete="current-password"
+              value={user.password}
+              onChange={handleChange}
+            />
+          </label>
+        </div>
+        <div>
+          <label htmlFor="countryCode">
+            Country:
+            <select
+              name="countryCode"
+              value={user.countryCode}
+              onChange={handleChange}>
+              <option>Please select:</option>
+              {countries.map((country) => (
+                <option key={country.country_code} value={country.country_code}>
+                  {country.name}
+                </option>
+              ))}
+            </select>
+          </label>
+        </div>
         <button type="submit">Register</button>
       </form>
 

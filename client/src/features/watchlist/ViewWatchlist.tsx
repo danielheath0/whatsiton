@@ -29,7 +29,7 @@ const ViewWatchlist = () => {
     <table>
       <thead>
         <tr>
-          <th>Film name</th>
+          <th></th>
           <th>Watched</th>
         </tr>
       </thead>
