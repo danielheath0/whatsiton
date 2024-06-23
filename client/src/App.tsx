@@ -1,8 +1,7 @@
 import { useState, useEffect } from "react";
 import DisplayResults from "./features/shows/DisplayResults";
 import SearchForm from "./features/shows/SearchForm";
-import UserForm from "./features/users/UserForm";
-import LogoutButton from "./features/users/LogoutButton";
+
 import { Route, Routes } from "react-router-dom";
 import Show from "./features/shows/Show";
 import ViewWatchlist from './features/watchlist/ViewWatchlist';
